@@ -67,10 +67,10 @@ const Services = () => {
           <nav id="navmenu" className="navmenu">
             <ul>
               <li><a> <NavLink to="/">Home</NavLink></a></li>
-              <li><a ><NavLink to="/About" className="active">About</NavLink></a></li>
+              <li><a ><NavLink to="/About">About</NavLink></a></li>
               <li><a > <NavLink to="/Services">Services</NavLink></a></li>
               <li><a > <NavLink to="/Features">Features</NavLink></a></li>
-              <li><a ><NavLink to="/Consulting">Consulting</NavLink></a></li>
+              <li><a ><NavLink to="/Consulting"className="active">Consulting</NavLink></a></li>
               <li><a ><NavLink to="/Products">Products</NavLink></a></li>
               {/* <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
@@ -99,19 +99,20 @@ const Services = () => {
         </div>
       </header>
 
-      <section class="single-page-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h2>Our Services</h2>
-              <ol class="breadcrumb header-bradcrumb justify-content-center">
-                <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Our Services</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </section>
+       <section id="hero" className="hero section">
+                    <div className="container" data-aos="fade-up" data-aos-delay="100">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="hero-content" data-aos="fade-up" data-aos-delay="200">
+                                    <h1 className="mb-4">We Solve<br /><span className="accent-text">Business Problems</span></h1>
+                                    <p className="mb-4 mb-md-5">
+                                       Services
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </section>
 
       <div class="section optech-section-padding5">
         <div class="container">

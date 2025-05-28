@@ -71,19 +71,20 @@ const About = () => {
 
 
 
-      <section class="single-page-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h2>About Us</h2>
-              <ol class="breadcrumb header-bradcrumb justify-content-center">
-                <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">About Us</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </section>
+     <section id="hero" className="hero section">
+                    <div className="container" data-aos="fade-up" data-aos-delay="100">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="hero-content" data-aos="fade-up" data-aos-delay="200">
+                                    <h1 className="mb-4">We Love<br /><span className="accent-text">What We Do</span></h1>
+                                    <p className="mb-4 mb-md-5">
+                                       About Us
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </section>
 
       <section class="about-shot-info section-sm">
         <div class="container">

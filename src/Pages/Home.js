@@ -8,10 +8,6 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/main.css'
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Autoplay, Pagination } from 'swiper/modules';
-// import 'swiper/css';
-// import 'swiper/css/pagination';
 import Illustration1 from '../img/illustration-1.webp';
 import Features1 from '../img/features-illustration-1.webp';
 import Features2 from '../img/features-illustration-2.webp';
@@ -785,132 +781,7 @@ const Home = () => {
 
                 </section>
 
-                <section id="pricing" className="pricing section light-background">
-                    <div className="container section-title" data-aos="fade-up">
-                        <h2>Pricing</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                    </div>
-                    <div className="container" data-aos="fade-up" data-aos-delay="100">
-                        <div className="row g-4 justify-content-center">
-                            <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                                <div className="pricing-card">
-                                    <h3>Basic Plan</h3>
-                                    <div className="price">
-                                        <span className="currency">$</span>
-                                        <span className="amount">9.9</span>
-                                        <span className="period">/ month</span>
-                                    </div>
-                                    <p className="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.</p>
-
-                                    <h4>Featured Included:</h4>
-                                    <ul className="features-list">
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Duis aute irure dolor
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Excepteur sint occaecat
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Nemo enim ipsam voluptatem
-                                        </li>
-                                    </ul>
-
-                                    <a href="#" className="btn btn-primary">
-                                        Buy Now
-                                        <i className="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                                <div className="pricing-card popular">
-                                    <div className="popular-badge">Most Popular</div>
-                                    <h3>Standard Plan</h3>
-                                    <div className="price">
-                                        <span className="currency">$</span>
-                                        <span className="amount">19.9</span>
-                                        <span className="period">/ month</span>
-                                    </div>
-                                    <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-
-                                    <h4>Featured Included:</h4>
-                                    <ul className="features-list">
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Lorem ipsum dolor sit amet
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Consectetur adipiscing elit
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Sed do eiusmod tempor
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Ut labore et dolore magna
-                                        </li>
-                                    </ul>
-
-                                    <a href="#" className="btn btn-light">
-                                        Buy Now
-                                        <i className="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                                <div className="pricing-card">
-                                    <h3>Premium Plan</h3>
-                                    <div className="price">
-                                        <span className="currency">$</span>
-                                        <span className="amount">39.9</span>
-                                        <span className="period">/ month</span>
-                                    </div>
-                                    <p className="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
-
-                                    <h4>Featured Included:</h4>
-                                    <ul className="features-list">
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Temporibus autem quibusdam
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Saepe eveniet ut et voluptates
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Nam libero tempore soluta
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Cumque nihil impedit quo
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-check-circle-fill"></i>
-                                            Maxime placeat facere possimus
-                                        </li>
-                                    </ul>
-
-                                    <a href="#" className="btn btn-primary">
-                                        Buy Now
-                                        <i className="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </section>
+                
 
                 <section className="faq-9 faq section light-background" id="faq">
                     <div className="container">
@@ -1143,18 +1014,18 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
+                        <div className="col-lg-4 col-md-3 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">About us</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Careers</a></li>
                                 <li><a href="#">Terms of service</a></li>
                                 <li><a href="#">Privacy policy</a></li>
                             </ul>
                         </div>
 
-                        <div className="col-lg-2 col-md-3 footer-links">
+                        <div className="col-lg-4 col-md-3 footer-links">
                             <h4>Our Services</h4>
                             <ul>
                                 <li><a href="#">Web Design</a></li>
@@ -1163,30 +1034,7 @@ const Home = () => {
                                 <li><a href="#">Marketing</a></li>
                                 <li><a href="#">Graphic Design</a></li>
                             </ul>
-                        </div>
-
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Hic solutasetp</h4>
-                            <ul>
-                                <li><a href="#">Molestiae accusamus iure</a></li>
-                                <li><a href="#">Excepturi dignissimos</a></li>
-                                <li><a href="#">Suscipit distinctio</a></li>
-                                <li><a href="#">Dilecta</a></li>
-                                <li><a href="#">Sit quas consectetur</a></li>
-                            </ul>
-                        </div>
-
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Nobis illum</h4>
-                            <ul>
-                                <li><a href="#">Ipsam</a></li>
-                                <li><a href="#">Laudantium dolorum</a></li>
-                                <li><a href="#">Dinera</a></li>
-                                <li><a href="#">Trodelas</a></li>
-                                <li><a href="#">Flexo</a></li>
-                            </ul>
-                        </div>
-
+                        </div>  
                     </div>
                 </div>
 
