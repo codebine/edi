@@ -1,32 +1,26 @@
-
-/* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Nunito",  sans-serif;
   --nav-font: "Inter",  sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #2d465e; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0d83fd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #ffffff; 
+  --default-color: #212529; 
+  --heading-color: #2d465e; 
+  --accent-color: #0d83fd; 
+  --surface-color: #ffffff; 
+  --contrast-color: #ffffff; 
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #212529;  /* The default color of the main navmenu links */
-  --nav-hover-color: #0d83fd; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #0d83fd; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #212529;  
+  --nav-hover-color: #0d83fd; 
+  --nav-mobile-background-color: #ffffff; 
+  --nav-dropdown-background-color: #ffffff; 
+  --nav-dropdown-color: #212529;
+  --nav-dropdown-hover-color: #0d83fd; 
 }
-
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
   --background-color: #f3f9ff;
@@ -41,14 +35,10 @@
   --contrast-color: #ffffff;
 }
 
-/* Smooth scroll */
 :root {
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General Styling & Shared Classes
---------------------------------------------------------------*/
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -76,8 +66,6 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* PHP Email Form Messages
-------------------------------*/
 .php-email-form .error-message {
   display: none;
   background: #df1529;
@@ -128,9 +116,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
 .header {
   --background-color: rgba(255, 255, 255, 0);
   color: var(--default-color);
@@ -211,10 +196,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Navmenu - Desktop */
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -321,7 +302,6 @@ h6 {
   }
 }
 
-/* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
@@ -448,9 +428,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Footer
---------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -565,9 +542,6 @@ h6 {
   font-size: 13px;
 }
 
-/*--------------------------------------------------------------
-# Scroll Top Button
---------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -599,18 +573,12 @@ h6 {
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Global Page Titles & Breadcrumbs
---------------------------------------------------------------*/
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -647,9 +615,6 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Global Sections
---------------------------------------------------------------*/
 section,
 .section {
   color: var(--default-color);
@@ -667,9 +632,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
 .section-title {
   text-align: center;
   padding-bottom: 60px;
@@ -701,9 +663,6 @@ section,
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 .hero {
   position: relative;
   padding-top: 160px;
@@ -946,9 +905,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
 .about .about-meta {
   color: var(--accent-color);
   font-weight: 600;
@@ -1136,9 +1092,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Features Section
---------------------------------------------------------------*/
 .features .nav-tabs {
   border: 0;
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
@@ -1251,9 +1204,6 @@ section,
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Features Cards Section
---------------------------------------------------------------*/
 .features-cards {
   --default-color: #555;
   --heading-color: #333;
@@ -1316,9 +1266,6 @@ section,
   color: #f28484;
 }
 
-/*--------------------------------------------------------------
-# Features 2 Section
---------------------------------------------------------------*/
 .features-2 .feature-item .feature-icon {
   width: 60px;
   height: 60px;
@@ -1374,9 +1321,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
 .call-to-action .container {
   background: var(--accent-color);
   color: var(--contrast-color);
@@ -1538,14 +1482,6 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Clients Section
---------------------------------------------------------------*/
-  
-
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
 .testimonials .testimonial-item {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
@@ -1610,9 +1546,6 @@ section,
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
 .stats .stats-item {
   padding: 30px;
   width: 100%;
@@ -1649,9 +1582,6 @@ section,
   font-weight: 500;
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
 .services .service-card {
   height: 100%;
   padding: 30px;
@@ -1719,9 +1649,6 @@ section,
   transform: translateX(5px);
 }
 
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
 .pricing .pricing-card {
   height: 100%;
   padding: 2rem;
@@ -1858,14 +1785,11 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
-/*--------------------------------------------------------------
-# Faq Section
---------------------------------------------------------------*/
 :root {
-    --heading-color: #333; /* Example color, change as needed */
-    --default-color: #555; /* Example color, change as needed */
-    --accent-color: #007bff; /* Example Bootstrap primary blue, change as needed */
-    --surface-color: #f8f9fa; /* Example light gray, change as needed */
+    --heading-color: #333; 
+    --default-color: #555; 
+    --accent-color: #007bff; 
+    --surface-color: #f8f9fa; 
 }
 
 .faq .faq-title {
@@ -1885,15 +1809,14 @@ section,
     color: var(--accent-color);
 }
 
-/* Styles for Bootstrap Accordion items */
 .faq .accordion-item {
     background-color: var(--surface-color);
     position: relative;
-    padding: 0; /* Bootstrap accordion-item has padding, adjust if needed */
+    padding: 0; 
     margin-bottom: 15px;
     border-radius: 10px;
     overflow: hidden;
-    /* Cursor handled by accordion-button */
+
 }
 
 .faq .accordion-item:last-child {
@@ -1904,35 +1827,35 @@ section,
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* margin: 0 30px 0 0;  -- removed, handled by Bootstrap padding */
+
     transition: color 0.3s ease;
     cursor: pointer;
     display: flex;
     align-items: center;
-    background-color: transparent; /* Ensure button background is transparent */
-    border: none; /* Remove default button border */
-    color: var(--default-color); /* Default text color */
-    padding: 20px; /* Match the original item padding */
+    background-color: transparent; 
+    border: none; 
+    color: var(--default-color); 
+    padding: 20px; 
 }
 
 .faq .accordion-header .accordion-button:not(.collapsed) {
-    color: var(--accent-color); /* Color when active */
-    background-color: var(--surface-color); /* Maintain background */
-    box-shadow: none; /* Remove default active box-shadow */
+    color: var(--accent-color); 
+    background-color: var(--surface-color); 
+    box-shadow: none; 
 }
 
 .faq .accordion-header .accordion-button::after {
-    /* Customize the Bootstrap accordion icon */
-    font-family: "bootstrap-icons"; /* If you're using Bootstrap Icons for the caret */
-    content: "\F282"; /* Example Bootstrap arrow icon, you might need to adjust this */
-    background-image: none; /* Remove default Bootstrap arrow image */
-    transform: rotate(0deg); /* Initial rotation */
+
+    font-family: "bootstrap-icons"; 
+    content: "\F282"; 
+    background-image: none; 
+    transform: rotate(0deg); 
     transition: transform 0.3s ease;
-    margin-left: auto; /* Push to the right */
+    margin-left: auto; 
 }
 
 .faq .accordion-header .accordion-button:not(.collapsed)::after {
-    transform: rotate(90deg); /* Rotate when open */
+    transform: rotate(90deg); 
 }
 
 .faq .accordion-header .accordion-button:hover {
@@ -1940,21 +1863,10 @@ section,
 }
 
 .faq .accordion-body {
-    padding: 0 20px 20px 20px; /* Match the original item padding, adjust top padding as needed */
+    padding: 0 20px 20px 20px; 
     color: var(--default-color);
 }
 
-/* If you want to retain the 'num' styling for the heading */
-/* You would need to add a span with class 'num' inside the accordion-button */
-/*
-.faq .accordion-header .accordion-button .num {
-    color: var(--accent-color);
-    padding-right: 5px;
-}
-*/
-/*--------------------------------------------------------------
-# Call To Action 2 Section
---------------------------------------------------------------*/
 .call-to-action-2 {
   padding: 80px 0;
 }
@@ -1992,9 +1904,6 @@ section,
   border-color: var(--contrast-color);
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
 .contact .info-box {
   background-color: var(--accent-color);
   color: var(--contrast-color);
@@ -2146,9 +2055,6 @@ section,
   background-color: color-mix(in srgb, var(--accent-color), var(--contrast-color) 20%);
 }
 
-/*--------------------------------------------------------------
-# Service Details Section
---------------------------------------------------------------*/
 .service-details .service-box {
   background-color: var(--surface-color);
   padding: 20px;
@@ -2280,41 +2186,36 @@ section,
   color: var(--accent-color);
 }
 
-
-
 .clients .client-logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px; /* Adjust padding as needed */
-    min-height: 80px; /* Give a consistent height for logos */
-    opacity: 0.7; /* Optional: Make logos slightly faded */
+    padding: 10px; 
+    min-height: 80px; 
+    opacity: 0.7; 
     transition: all 0.3s ease-in-out;
 }
 
 .clients .client-logo:hover img {
-    opacity: 1; /* Optional: Make logo fully opaque on hover */
+    opacity: 1; 
 }
 
 .clients .client-logo img {
-    max-width: 90%; /* Ensure images scale */
-    max-height: 50px; /* Limit image height */
+    max-width: 90%; 
+    max-height: 50px; 
 }
 
-/* Adjust pagination dots if necessary */
 .clients .carousel-indicators button {
-    background-color: var(--accent-color); /* Or any color you prefer */
+    background-color: var(--accent-color); 
     border-radius: 50%;
     width: 10px;
     height: 10px;
 }
-  /*--------------------------------------------------------------
-  # Contact Section
-  --------------------------------------------------------------*/
+
   .contact .info-item+.info-item {
     margin-top: 40px;
   }
-  
+
   .contact .info-item i {
     color: var(--contrast-color);
     background: #2b4dff;
@@ -2328,24 +2229,24 @@ section,
     transition: all 0.3s ease-in-out;
     margin-right: 15px;
   }
-  
+
   .contact .info-item h3 {
     padding: 0;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 5px;
   }
-  
+
   .contact .info-item p {
     padding: 0;
     margin-bottom: 0;
     font-size: 14px;
   }
-  
+
   .contact .php-email-form {
     height: 100%;
   }
-  
+
   .contact .php-email-form input[type=text],
   .contact .php-email-form input[type=email],
   .contact .php-email-form textarea {
@@ -2357,19 +2258,19 @@ section,
     background-color: color-mix(in srgb, var(--background-color), transparent 50%);
     border-color: color-mix(in srgb, var(--default-color), transparent 80%);
   }
-  
+
   .contact .php-email-form input[type=text]:focus,
   .contact .php-email-form input[type=email]:focus,
   .contact .php-email-form textarea:focus {
     border-color: #2b4dff;
   }
-  
+
   .contact .php-email-form input[type=text]::placeholder,
   .contact .php-email-form input[type=email]::placeholder,
   .contact .php-email-form textarea::placeholder {
     color: color-mix(in srgb, var(--default-color), transparent 70%);
   }
-  
+
   .contact .php-email-form button[type=submit] {
     color: var(--contrast-color);
     background: #2b4dff;
@@ -2378,8 +2279,7 @@ section,
     transition: 0.4s;
     border-radius: 4px;
   }
-  
+
   .contact .php-email-form button[type=submit]:hover {
     background: color-mix(in srgb, #2b4dff, transparent 20%);
   }
-  
