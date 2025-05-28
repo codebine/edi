@@ -1,7 +1,3 @@
----------------------------------------------
-Courses Style
---------------------------------------------- 
-*/
 
 .courses {
   margin-top: 160px;
@@ -131,7 +127,7 @@ Courses Style
 }
 
 .sec-pad {
-    /* background-image: url('../images/cta-bg2.png'); */
+    
     padding: 120px 0;
 }
 
@@ -686,18 +682,18 @@ text-transform: none;
   .optech-numberbox-icon {
     margin-bottom: 40px;
   }
-  /* Hide swiper navigation buttons */
+  
 .swiper-button-next,
 .swiper-button-prev {
   display: none !important;
 }
 
-/* Optional: If pagination dots exist and should be hidden */
+
 .swiper-pagination {
   display: none !important;
 }
 
-/* Ensure Swiper displays slides in a row and looks clean */
+
 .swiper-wrapper {
   display: flex;
   gap: 30px;
@@ -708,11 +704,11 @@ text-transform: none;
 
 .swiper-slide {
   flex: 0 0 auto;
-  width: 292px !important; /* Match inline style */
-  margin-right: 0 !important; /* Already handled by gap */
+  width: 292px !important; 
+  margin-right: 0 !important; 
 }
 
-/* Optional scrollbar hide for swiper-wrapper */
+
 .swiper-wrapper::-webkit-scrollbar {
   display: none;
 }

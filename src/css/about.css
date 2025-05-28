@@ -175,7 +175,7 @@
     position: relative;
     width: 170px;
   }  
-  /* about   */
+
   .sec-mar {
     margin: 120px 0;
   }
@@ -349,10 +349,9 @@
     text-transform: capitalize;
     z-index: 1;
   }
-  /* about   */
-  /* breadcrumbs */
+
   .breadcrumbs {
-    /* background-image: url(../img/breadcrumbs-bg.png); */
+
     background-position: 50%;
     background-size: cover;
     min-height: 500px;
@@ -385,9 +384,6 @@
   .breadcrumb-wrapper span i {
     margin: 0 10px;
   }
-  /* breadcrumbs */
-
-
 
   .single-page-header {
   background-image: url("../img/about/about-header.jpg");
@@ -423,9 +419,6 @@
   color: #fff;
 }
 
-/*=================================================================
-  Our skills
-==================================================================*/
 .team-skills .progress-block {
   margin-top: 40px;
 }
@@ -448,9 +441,6 @@
   margin-top: 50px;
 }
 
-/*=================================================================
-  Step section
-==================================================================*/
 .development-steps .step {
   padding: 80px 20px;
 }
@@ -496,9 +486,6 @@
   color: #fff;
 }
 
-/*=================================================================
-  Our Team
-==================================================================*/
 .team {
   padding: 100px 0;
   padding-bottom: 70px;
@@ -581,9 +568,6 @@
   transform: translateY(0%);
 }
 
-/*=================================================================
-  Testimonial section
-==================================================================*/
 .testimonial {
   padding-top: 100px;
   background: #28ABE3;
