@@ -11,7 +11,7 @@ import Services from './Pages/Services'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="edi/">
         <Routes >
           <Route path='/' element={<Home/>}></Route>
           <Route path='About' element={<About/>}></Route>
