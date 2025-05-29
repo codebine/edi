@@ -37,7 +37,7 @@ const About = () => {
           <nav id="navmenu" className="navmenu">
             <ul>
               <li><a> <NavLink to="/">Home</NavLink></a></li>
-              <li><a ><NavLink to="/About" className="active">About</NavLink></a></li>
+              <li><a ><NavLink to="/About" >About</NavLink></a></li>
               <li><a > <NavLink to="/Services">Services</NavLink></a></li>
               <li><a > <NavLink to="/Features">Features</NavLink></a></li>
               <li><a ><NavLink to="/Consulting">Consulting</NavLink></a></li>
@@ -71,33 +71,29 @@ const About = () => {
 
 
 
-     <section id="hero" className="hero section">
-                    <div className="container" data-aos="fade-up" data-aos-delay="100">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6">
-                                <div className="hero-content" data-aos="fade-up" data-aos-delay="200">
-                                    <h1 className="mb-4">We Love<br /><span className="accent-text">What We Do</span></h1>
-                                    <p className="mb-4 mb-md-5">
-                                       About Us
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </section>
+                    <section id="hero" className="hero section">
+                      <div className="container" data-aos="fade-up" data-aos-delay="100">
+                          <div className="row align-items-center">
+                              <div className="col-lg-6">
+                                  <div className="hero-content" data-aos="fade-up" data-aos-delay="200">
+                                      <h1 className="mb-4">We Love<br /><span className="accent-text">What We Do</span></h1>
+                                      <p className="mb-4 mb-md-5">
+                                        About Us
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </section>
 
       <section class="about-shot-info section-sm">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 mt-20">
-              <h2 class="mb-3">We Create Designs<br /> and technology</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus
-                dolor harum voluptatibus modi dicta ducimus.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat
-                cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugit itaque ratione incidunt voluptas.
-                Quaerat quidem dolor, quisquam amet inventore quas adipisci ea sint qui placeat beatae molestias aut, aperiam!
-              </p>
+              <h2 class="mb-3">Who We Are ??</h2>
+              <p>Parinsoft is a forward-thinking IT company committed to delivering high-quality, secure, and scalable digital solutions. </p>
+              <p>Our expertise spans a wide spectrum of technologies, including Artificial Intelligence, Machine Learning, Cybersecurity, and Custom Application Development.</p>
+              <p>We combine technical excellence with strategic insight to help businesses unlock new opportunities and drive innovation.</p>
             </div>
             <div class="col-lg-6 mt-4 mt-lg-0">
               <img loading="lazy" class="img-fluid" src={companyimage} alt="" />
@@ -112,18 +108,12 @@ const About = () => {
           <div class="row">
             <div class="col-md-6">
               <h3>Our Mission</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in suscipit voluptatum totam dolores
-                assumenda vel, quia earum voluptatem blanditiis vero accusantium saepe aliquid nulla nemo accusamus, culpa
-                inventore! Culpa nemo aspernatur tenetur, at quam aliquid reprehenderit obcaecati dicta illum mollitia,
-                perferendis hic, beatae voluptates? Ex labore, obcaecati harum nam.</p>
+              <p>To empower businesses and individuals through innovative IT solutions and transformative training programs, enabling them to thrive in an ever-evolving digital world.</p>
               <img loading="lazy" src={companyimage2} alt="" class="img-fluid mt-30" />
             </div>
             <div class="col-md-6 mt-5 mt-md-0">
               <h3>Our Vision</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in suscipit voluptatum totam dolores
-                assumenda vel, quia earum voluptatem blanditiis vero accusantium saepe aliquid nulla nemo accusamus, culpa
-                inventore! Culpa nemo aspernatur tenetur, at quam aliquid reprehenderit obcaecati dicta illum mollitia,
-                perferendis hic, beatae voluptates? Ex labore, obcaecati harum nam.</p>
+              <p>To be a global leader in IT services, renowned for our commitment to quality, innovation, and customer satisfaction—fueling digital transformation and building a smarter, secure future.</p>
               <img loading="lazy" src={companyimage3} alt="" class="img-fluid mt-30" />
             </div>
           </div>

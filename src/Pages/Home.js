@@ -43,34 +43,17 @@ const Home = () => {
 
                     <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
                         {/* <img src="assets/img/logo.png" alt=""/> */}
-                        <h1 className="sitename">EDI Systems</h1>
+                        <h1 className="sitename">ParinSoft</h1>
                     </a>
 
                     <nav id="navmenu" className="navmenu">
                         <ul>
-                            <li><a> <NavLink to="/" className="active">Home</NavLink></a></li>
+                            <li><a> <NavLink to="/" >Home</NavLink></a></li>
                             <li><a ><NavLink to="/About">About</NavLink></a></li>
                             <li><a > <NavLink to="/Services">Services</NavLink></a></li>
-                            <li><a > <NavLink to="/Features">Features</NavLink></a></li>
-                            <li><a ><NavLink to="/Consulting">Consulting</NavLink></a></li>
                             <li><a ><NavLink to="/Products">Products</NavLink></a></li>
-                            {/* <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Dropdown 1</a></li>
-                                    <li className="dropdown"><a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                                        <ul>
-                                            <li><a href="#">Deep Dropdown 1</a></li>
-                                            <li><a href="#">Deep Dropdown 2</a></li>
-                                            <li><a href="#">Deep Dropdown 3</a></li>
-                                            <li><a href="#">Deep Dropdown 4</a></li>
-                                            <li><a href="#">Deep Dropdown 5</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Dropdown 2</a></li>
-                                    <li><a href="#">Dropdown 3</a></li>
-                                    <li><a href="#">Dropdown 4</a></li>
-                                </ul>
-                            </li> */}
+                            <li><a ><NavLink to="/Consulting">Consulting</NavLink></a></li>
+                            <li><a > <NavLink to="/Features">Careers</NavLink></a></li>
                             <li><NavLink to="/Contact">Contact</NavLink></li>
                         </ul>
                         <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -91,18 +74,17 @@ const Home = () => {
                                         <i className="bi bi-gear-fill me-2"></i>
                                         Working for your success
                                     </div>
-                                    <h1 className="mb-4">Maecenas Vitae <br />Consectetur Led <br /><span className="accent-text">Vestibulum Ante</span></h1>
+                                    <h1 className="mb-4">Powerful Digital <br />Solutions With  <br /><span className="accent-text">Parinsoft</span></h1>
                                     <p className="mb-4 mb-md-5">
-                                        Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-                                        Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+                                        We are team of talented digital marketers
                                     </p>
-                                    <div className="hero-buttons">
+                                    {/* <div className="hero-buttons">
                                         <a href="#about" className="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
                                         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="btn btn-link mt-2 mt-sm-0 glightbox">
                                             <i className="bi bi-play-circle me-1"></i>
                                             Play Video
                                         </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
@@ -998,7 +980,7 @@ const Home = () => {
                     <div className="row gy-4">
                         <div className="col-lg-4 col-md-6 footer-about">
                             <a href="index.html" className="logo d-flex align-items-center">
-                                <span className="sitename">EDI Systems</span>
+                                <span className="sitename">ParinSoft</span>
                             </a>
                             <div className="footer-contact pt-3">
                                 <p>A108 Adam Street</p>
@@ -1018,9 +1000,9 @@ const Home = () => {
                             <h4>Useful Links</h4>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Blog</a></li>
                                 <li><a href="#">Careers</a></li>
-                                <li><a href="#">Terms of service</a></li>
+                                <li><a href="#">FAQ's</a></li>
                                 <li><a href="#">Privacy policy</a></li>
                             </ul>
                         </div>
