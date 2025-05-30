@@ -12,37 +12,30 @@ import "../css/main.css";
 const Contact = () => {
   return (
     <div>
-      <header
-        id="header"
-        className="header d-flex align-items-center fixed-top"
-      >
-        <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-          <a
-            href="index.html"
-            className="logo d-flex align-items-center me-auto me-xl-0"
-          >
-            {/* <img src="assets/img/logo.png" alt=""/> */}
-            <h1 className="sitename">EDI Systems</h1>
-          </a>
-
-          <nav id="navmenu" className="navmenu">
-                        <ul>
-                            <li><a> <NavLink to="/" >Home</NavLink></a></li>
-                            <li><a ><NavLink to="/About">About</NavLink></a></li>
-                            <li><a > <NavLink to="/Services">Services</NavLink></a></li>
-                            <li><a ><NavLink to="/Products">Products</NavLink></a></li>
-                            <li><a ><NavLink to="/Consulting">Consulting</NavLink></a></li>
-                            <li><a > <NavLink to="/Features">Careers</NavLink></a></li>
-                            <li><NavLink to="/Contact">Contact</NavLink></li>
-                        </ul>
-                        <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                    </nav>
-
-          <a className="btn-getstarted" href="index.html#about">
-            Get Started
-          </a>
-        </div>
-      </header>
+      <header id="header" className="header d-flex align-items-center fixed-top">
+                <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      
+                  <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
+                    <h1 className="sitename">EDI Systems</h1>
+                  </a>
+      
+                  <nav id="navmenu" className="navmenu">
+                 <ul>
+                      <li><NavLink to="/">Home</NavLink></li>
+                      <li><NavLink to="/About">About</NavLink></li>
+                      <li><NavLink to="/Services">Services</NavLink></li>
+                      <li><NavLink to="/Products">Products</NavLink></li>
+                      <li><NavLink to="/Consulting">Consulting</NavLink></li>
+                      <li><NavLink to="/Features">Careers</NavLink></li>
+                      <li><NavLink to="/Contact">Contact</NavLink></li>
+                    </ul>
+                    <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                  </nav>
+      
+                  <a className="btn-getstarted" href="index.html#about">Get Started</a>
+      
+                </div>
+              </header>
 
       <section id="hero" className="hero section">
         <div className="container" data-aos="fade-up" data-aos-delay="100">
