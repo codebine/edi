@@ -32,6 +32,7 @@ import Testimonials1 from "../img/testimonials/testimonials-1.jpg";
 import Testimonials2 from "../img/testimonials/testimonials-2.jpg";
 import Testimonials3 from "../img/testimonials/testimonials-3.jpg";
 import Testimonials4 from "../img/testimonials/testimonials-4.jpg";
+import Logo from "../img/ParinSoft.png";
 
 
 
@@ -42,8 +43,8 @@ const Home = () => {
                 <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
                     <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                        {/* <img src="assets/img/logo.png" alt=""/> */}
-                        <h1 className="sitename">ParinSoft</h1>
+                        <img src={Logo} alt=""/>
+                        {/* <h1 className="sitename">ParinSoft</h1> */}
                     </a>
 
                     <nav id="navmenu" className="navmenu">
