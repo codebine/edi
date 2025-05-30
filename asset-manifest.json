@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/edi/static/css/main.8112915f.css",
-    "main.js": "/edi/static/js/main.064dd12d.js",
+    "main.css": "/edi/static/css/main.08365f7d.css",
+    "main.js": "/edi/static/js/main.69045f1b.js",
     "static/js/453.ba74c8e2.chunk.js": "/edi/static/js/453.ba74c8e2.chunk.js",
     "static/media/company-image.jpg": "/edi/static/media/company-image.e02742de0a96f7e29f01.jpg",
     "static/media/avatar-4.webp": "/edi/static/media/avatar-4.4ac22b05c6f4c5df9631.webp",
@@ -38,15 +38,16 @@
     "static/media/features-illustration-1.webp": "/edi/static/media/features-illustration-1.a07792b732f9515006f8.webp",
     "static/media/member-2.jpg": "/edi/static/media/member-2.54967f005a54d067ee59.jpg",
     "static/media/member-3.jpg": "/edi/static/media/member-3.dcb0c6ff0e564bf2741e.jpg",
+    "static/media/ParinSoft.png": "/edi/static/media/ParinSoft.2af98c122f62526613f5.png",
     "static/media/testimonials-4.jpg": "/edi/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
     "static/media/testimonials-3.jpg": "/edi/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/edi/index.html",
-    "main.8112915f.css.map": "/edi/static/css/main.8112915f.css.map",
-    "main.064dd12d.js.map": "/edi/static/js/main.064dd12d.js.map",
+    "main.08365f7d.css.map": "/edi/static/css/main.08365f7d.css.map",
+    "main.69045f1b.js.map": "/edi/static/js/main.69045f1b.js.map",
     "453.ba74c8e2.chunk.js.map": "/edi/static/js/453.ba74c8e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8112915f.css",
-    "static/js/main.064dd12d.js"
+    "static/css/main.08365f7d.css",
+    "static/js/main.69045f1b.js"
   ]
 }
