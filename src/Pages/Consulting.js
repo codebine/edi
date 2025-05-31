@@ -5,6 +5,13 @@ import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/main.css"; // Assuming this has global styles
 import "../css/consulting.css"; // Specific styles for this page
+import Testimonials1 from "../img/testimonials/testimonials-1.jpg";
+import Testimonials2 from "../img/testimonials/testimonials-2.jpg";
+import Testimonials3 from "../img/testimonials/testimonials-3.jpg";
+import Testimonials4 from "../img/testimonials/testimonials-4.jpg";
+import about2 from '../img/about-2.webp';
+import about5 from '../img/about-5.webp';
+import avatar1 from '../img/avatar-1.webp';
 
 const Consulting = () => {
   return (
@@ -13,7 +20,7 @@ const Consulting = () => {
                 <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
       
                   <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                    <h1 className="sitename">EDI Systems</h1>
+                    <h1 className="sitename">Parinsoft</h1>
                   </a>
       
                   <nav id="navmenu" className="navmenu">
@@ -33,28 +40,26 @@ const Consulting = () => {
       
                 </div>
               </header>
-              
-      <div className="consulting-page">
+
+
+              <main className="main">
+                <div className="consulting-page">
       {/* Hero Section */}
-      <section className="consulting-hero text-white d-flex align-items-center justify-content-center">
-        <div className="container text-center">
-          <h1 className="display-3 fw-bold mb-3">
-            Strategic Consulting for a{" "}
-            <span className="accent-text-hero">Dynamic Future</span>
-          </h1>
-          <p className="lead mb-4">
-            Partner with EDI Systems to navigate complexities, unlock growth,
+        <section className="hero-section text-center text-white d-flex align-items-center justify-content-center">
+          <div className="container">
+            <h1 className="display-4 mb-3"> Strategic Consulting for a<b/> Dynamic Future</h1>
+            <p className="lead mb-4">
+              Partner with Parinsoft to navigate complexities, unlock growth,
             and achieve sustainable success.
-          </p>
-          <NavLink
+            </p>
+            <NavLink
             to="/Contact"
             className="btn btn-primary btn-lg custom-hero-btn"
           >
             Request a Consultation
           </NavLink>
-        </div>
-      </section>
-
+          </div>
+        </section>
       {/* What We Do / Introduction Section */}
       <section className="what-we-do section-padding bg-light">
         <div className="container">
@@ -64,7 +69,7 @@ const Consulting = () => {
                 Empowering Your Business Through Insight and Innovation
               </h2>
               <p className="lead mb-4">
-                At EDI Systems, our consulting services are designed to help
+                At Parinsoft, our consulting services are designed to help
                 organizations of all sizes overcome challenges, seize
                 opportunities, and drive meaningful transformation. We combine
                 deep industry knowledge with cutting-edge technological
@@ -98,179 +103,168 @@ const Consulting = () => {
             </div>
           </div>
           <div className="row g-4">
-            <div className="col-md-6 col-lg-4">
-              <div className="service-card p-4 h-100 shadow-sm rounded">
-                {/* Placeholder for visual: You can add an icon or a colored div here */}
-                <div className="service-icon-placeholder mb-3">
-                  <i className="bi bi-briefcase-fill service-icon"></i>
-                </div>
-                <h3 className="card-title-consulting">Strategic Advisory</h3>
-                <p>
-                  Develop robust business strategies, market entry plans, and
-                  growth initiatives tailored to your ambitions.
-                </p>
-                <ul className="list-unstyled service-points">
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Market Analysis & Positioning
-                  </li>
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Growth & Diversification Strategies
-                  </li>
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Organizational Transformation
-                  </li>
-                </ul>
-                <NavLink to="/Services#strategy" className="learn-more-link">
-                  Learn More <i className="bi bi-arrow-right"></i>
-                </NavLink>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="service-card p-4 h-100 shadow-sm rounded">
-                {/* Placeholder for visual: You can add an icon or a colored div here */}
-                <div className="service-icon-placeholder mb-3">
-                  <i className="bi bi-cloud-arrow-up-fill service-icon"></i>
-                </div>
-                <h3 className="card-title-consulting">
-                  Digital & Technology Consulting
-                </h3>
-                <p>
-                  Harness the power of digital innovation to streamline
-                  operations, enhance customer experience, and build
-                  future-ready solutions.
-                </p>
-                <ul className="list-unstyled service-points">
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Digital Transformation Roadmaps
-                  </li>
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Cloud & Infrastructure Advisory
-                  </li>
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Cybersecurity Strategy
-                  </li>
-                </ul>
-                <NavLink to="/Services#digital" className="learn-more-link">
-                  Learn More <i className="bi bi-arrow-right"></i>
-                </NavLink>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="service-card p-4 h-100 shadow-sm rounded">
-                {/* Placeholder for visual: You can add an icon or a colored div here */}
-                <div className="service-icon-placeholder mb-3">
-                  <i className="bi bi-gear-fill service-icon"></i>
-                </div>
-                <h3 className="card-title-consulting">
-                  Operational Excellence
-                </h3>
-                <p>
-                  Optimize your core processes, improve efficiency, and drive
-                  cost-effectiveness across your entire value chain.
-                </p>
-                <ul className="list-unstyled service-points">
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Process Optimization & Automation
-                  </li>
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Supply Chain Management
-                  </li>
-                  <li>
-                    <i className="bi bi-check-circle-fill me-2 text-primary"></i>
-                    Performance Improvement
-                  </li>
-                </ul>
-                <NavLink to="/Services#operations" className="learn-more-link">
-                  Learn More <i className="bi bi-arrow-right"></i>
-                </NavLink>
-              </div>
-            </div>
+      <section id="services" className="services section light-background">
+                    <div className="container" data-aos="fade-up" data-aos-delay="100">
+
+                        <div className="row g-4">
+
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-activity"></i>
+                                    </div>
+                                    <div>
+                                        <h3>Healthcare IT</h3>
+                                        <p>We bring over a decade of experience in AI/ML, blending strategic innovation with deep technical expertise to build intelligent, ethical, and scalable solutions tailored for real-world impact.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-diagram-3"></i>
+                                    </div>
+                                    <div>
+                                        <h3>Finance & Banking</h3>
+                                        <p>From web application security to Identity and Access Management (IAM), we protect what matters most through proactive, advanced, and ethical cybersecurity practices.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-easel"></i>
+                                    </div>
+                                    <div>
+                                        <h3>Retail & E-Commerce</h3>
+                                        <p>Harnessing technologies like Java, .NET, Python, Golang, and PHP, we create robust, scalable applications that power innovation and operational efficiency.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-clipboard-data"></i>
+                                    </div>
+                                    <div>
+                                        <h3>Manufacturing & Logistics</h3>
+                                        <p>We build native and cross-platform mobile apps using Flutter and React Native, offering seamless user experiences and performance across devices.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-clipboard-data"></i>
+                                    </div>
+                                    <div>
+                                        <h3>Government & Public Sector</h3>
+                                        <p>Our strategic IT staffing and consulting services help you access the right talent and expert guidance to accelerate your digital initiatives and navigate IT complexity.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-clipboard-data"></i>
+                                    </div>
+                                    <div>
+                                        <h3>IT Staffing and Consulting</h3>
+                                        <p>Our strategic IT staffing and consulting services help you access the right talent and expert guidance to accelerate your digital initiatives and navigate IT complexity.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </section> 
           </div>
-          <div className="text-center mt-5">
-            <NavLink to="/Services" className="btn btn-outline-primary btn-lg">
-              View All Services
-            </NavLink>
-          </div>
+       
         </div>
       </section>
 
       {/* Our Approach Section */}
-      <section className="our-approach section-padding bg-light">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2 className="section-title mb-4">
-                Our Collaborative Approach to Your Success
-              </h2>
-              <p className="lead">
-                We believe that the best solutions emerge from deep
-                collaboration and a thorough understanding of your unique
-                context.
-              </p>
-              <div className="approach-steps mt-4">
-                <div className="d-flex align-items-start mb-3">
-                  <i className="bi bi-lightbulb-fill icon-circle me-3 flex-shrink-0"></i>
-                  <div>
-                    <h5>1. Discover & Diagnose</h5>
-                    <p>
-                      Thorough analysis of your challenges, opportunities, and
-                      strategic goals.
-                    </p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-start mb-3">
-                  <i className="bi bi-tools icon-circle me-3 flex-shrink-0"></i>
-                  <div>
-                    <h5>2. Design & Strategize</h5>
-                    <p>
-                      Co-create tailored solutions and actionable roadmaps with
-                      your team.
-                    </p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-start mb-3">
-                  <i className="bi bi-lightning-charge-fill icon-circle me-3 flex-shrink-0"></i>
-                  <div>
-                    <h5>3. Implement & Execute</h5>
-                    <p>
-                      Support seamless execution and integration for tangible
-                      impact.
-                    </p>
-                  </div>
-                </div>
-                <div className="d-flex align-items-start">
-                  <i className="bi bi-graph-up-arrow icon-circle me-3 flex-shrink-0"></i>
-                  <div>
-                    <h5>4. Measure & Evolve</h5>
-                    <p>
-                      Monitor progress, measure ROI, and adapt strategies for
-                      continuous improvement.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 text-center approach-visual-placeholder">
-              {/* This div serves as a placeholder for an image or a complex graphic */}
-              <div className="approach-graphic-area rounded shadow-lg d-flex align-items-center justify-content-center">
-                <i
-                  className="bi bi-arrow-right-circle-fill text-white"
-                  style={{ fontSize: "4rem" }}
-                ></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
+<section id="about" className="about section">
+                    <div className="container" data-aos="fade-up" data-aos-delay="100">
+                        <div className="row gy-4 align-items-center justify-content-between">
+                             <div className="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+                                <div className="image-wrapper">
+                                    <div className="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                                        <img src={about5} alt="Business Meeting" className="img-fluid main-image rounded-4" />
+                                        <img src={about2} alt="Team Discussion" className="img-fluid small-image rounded-4" />
+                                    </div>
+                                    <div className="experience-badge floating">
+                                        <h3>15+ <span>Years</span></h3>
+                                        <p>Of experience in business service</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+                                <h2 className="about-title"> Our Collaborative Approach to Your Success</h2>
+                                <p className="about-description"> We believe that the best solutions emerge from deep
+                collaboration and a thorough understanding of your unique
+                context.</p>
+
+                                <div className="row feature-list-wrapper">
+                                    <div className="col-md-6">
+                                        <ul className="feature-list">
+                                            <li><i className="bi bi-check-circle-fill"></i> Deep expertise in advanced technologies</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> Client-focused development approach</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> Sed do eiusmod tempor</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <ul className="feature-list">
+                                            <li><i className="bi bi-check-circle-fill"></i> Agile and scalable solutions tailored to your needs</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> Strong emphasis on quality and data security</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> A dedicated team committed to continuous innovation</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className="info-wrapper">
+                                    <div className="row gy-4">
+                                        <div className="col-lg-5">
+                                            <div className="profile d-flex align-items-center gap-3">
+                                                <img src={avatar1} alt="CEO Profile" className="profile-image" />
+                                                <div>
+                                                    <h4 className="profile-name">Mario Smith</h4>
+                                                    <p className="profile-position">CEO &amp; Founder</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-7">
+                                            <div className="contact-info d-flex align-items-center gap-2">
+                                                <i className="bi bi-telephone-fill"></i>
+                                                <div>
+                                                    <p className="contact-label">Call us anytime</p>
+                                                    <p className="contact-number">+123 456-789</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+                        </div>
+
+                    </div>
+
+                </section>
       {/* Success Stories / Case Studies */}
       <section className="success-stories section-padding">
         <div className="container">
@@ -331,13 +325,51 @@ const Consulting = () => {
               </div>
             </div>
           </div>
-          <div className="text-center mt-5">
-            <NavLink
-              to="/CaseStudies"
-              className="btn btn-outline-secondary btn-lg"
-            >
-              View All Case Studies
-            </NavLink>
+          <div className="row g-4">
+            <div className="col-md-6">
+              <div className="case-study-card h-100 shadow-sm rounded">
+                <div className="case-study-img-placeholder rounded-top"></div>{" "}
+                {/* Placeholder for image */}
+                <div className="p-4">
+                  <h4 className="case-study-title">
+                    Streamlining Operations for a Global Manufacturer
+                  </h4>
+                  <p className="case-study-desc">
+                    Helped a leading manufacturer reduce operational costs by
+                    25% and improve supply chain efficiency through process
+                    automation and data analytics.
+                  </p>
+                  <p className="case-study-result text-primary fw-bold">
+                    Result: 25% Cost Reduction & 15% Efficiency Gain
+                  </p>
+                  <NavLink to="/CaseStudies#case1" className="learn-more-link">
+                    Read Full Case Study <i className="bi bi-arrow-right"></i>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="case-study-card h-100 shadow-sm rounded">
+                <div className="case-study-img-placeholder rounded-top"></div>{" "}
+                {/* Placeholder for image */}
+                <div className="p-4">
+                  <h4 className="case-study-title">
+                    Accelerating Digital Transformation for a Retail Giant
+                  </h4>
+                  <p className="case-study-desc">
+                    Guided a major retail company through a comprehensive
+                    digital transformation, leading to enhanced customer
+                    engagement and new revenue streams.
+                  </p>
+                  <p className="case-study-result text-primary fw-bold">
+                    Result: 40% Increase in Online Engagement
+                  </p>
+                  <NavLink to="/CaseStudies#case2" className="learn-more-link">
+                    Read Full Case Study <i className="bi bi-arrow-right"></i>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -354,227 +386,82 @@ const Consulting = () => {
               </p>
             </div>
           </div>
-          <div className="row g-4">
-            <div className="col-md-6 col-lg-4">
-              <div className="testimonial-card p-4 h-100 shadow-sm rounded">
-                <i className="bi bi-quote quote-icon mb-3"></i>
-                <p className="testimonial-text">
-                  "EDI Systems transformed our approach to digital strategy.
-                  Their insights were invaluable, leading to significant
-                  improvements in our market position."
-                </p>
-                <div className="testimonial-author mt-4">
-                  <h5>Jane Doe</h5>
-                  <p className="text-muted mb-0">CEO, Tech Innovators Inc.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="testimonial-card p-4 h-100 shadow-sm rounded">
-                <i className="bi bi-quote quote-icon mb-3"></i>
-                <p className="testimonial-text">
-                  "The operational efficiencies they helped us achieve were
-                  beyond expectation. A truly dedicated and expert team."
-                </p>
-                <div className="testimonial-author mt-4">
-                  <h5>John Smith</h5>
-                  <p className="text-muted mb-0">
-                    Operations Director, Global Manufacturing Co.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="testimonial-card p-4 h-100 shadow-sm rounded">
-                <i className="bi bi-quote quote-icon mb-3"></i>
-                <p className="testimonial-text">
-                  "Their strategic advisory was critical for our recent
-                  expansion. We now have a clear roadmap for future growth."
-                </p>
-                <div className="testimonial-author mt-4">
-                  <h5>Emily White</h5>
-                  <p className="text-muted mb-0">
-                    Founder, E-commerce Solutions
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+             <section id="testimonials" className="testimonials section light-background">
+                    <div className="container">
+                        <div className="row g-5">
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                                <div className="testimonial-item">
+                                    <img src={Testimonials1} className="testimonial-img" alt="" />
+                                    <h3>Saul Goodman</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                    <div className="stars">
+                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i className="bi bi-quote quote-icon-left"></i>
+                                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                                        <i className="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                                <div className="testimonial-item">
+                                    <img src={Testimonials2} className="testimonial-img" alt="" />
+                                    <h3>Sara Wilsson</h3>
+                                    <h4>Designer</h4>
+                                    <div className="stars">
+                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i className="bi bi-quote quote-icon-left"></i>
+                                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                                        <i className="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                                <div className="testimonial-item">
+                                    <img src={Testimonials3} className="testimonial-img" alt="" />
+                                    <h3>Jena Karlis</h3>
+                                    <h4>Store Owner</h4>
+                                    <div className="stars">
+                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i className="bi bi-quote quote-icon-left"></i>
+                                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                                        <i className="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                                <div className="testimonial-item">
+                                    <img src={Testimonials4} className="testimonial-img" alt="" />
+                                    <h3>Matt Brandon</h3>
+                                    <h4>Freelancer</h4>
+                                    <div className="stars">
+                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>
+                                        <i className="bi bi-quote quote-icon-left"></i>
+                                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                                        <i className="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
         </div>
       </section>
 
-      {/* Strategic Alliances / Partners Section */}
-      <section className="strategic-alliances section-padding">
-        <div className="container">
-          <div className="row justify-content-center mb-5">
-            <div className="col-lg-10 text-center">
-              <h2 className="section-title mb-3">Our Strategic Alliances</h2>
-              <p className="section-subtitle">
-                We collaborate with leading technology providers and industry
-                experts to bring you integrated, best-in-class solutions.
-              </p>
-            </div>
-          </div>
-         <div className="bg-light1">
-        <div class="sectin  optech-section-padding">
-          <div class="container">
-            <div class="optech-section-title center">
-              {/* <h2>Our awesome services to give you success</h2> */}
-            </div>
-          </div>
-          <div class="swiper-wrapper justify-content-center">
-            <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <i class="fa fa-grav" aria-hidden="true"></i>
-
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>Healthcare<br /> IT</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <img alt="icon" width="36" height="36" decoding="async"
-                    src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>IT Management <br /> Service</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <img alt="icon" width="36" height="36" decoding="async"
-                    src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <img alt="icon" width="36" height="36" decoding="async"
-                    src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>Web &amp; Mobile App <br /> Development</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-wrapper justify-content-center mt-5">
-            <div class="swiper-slide swiper-slide-active" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="0">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <i class="fa fa-grav" aria-hidden="true"></i>
-
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>Data Tracking <br /> Security</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide swiper-slide-next" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="1">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <img alt="icon" width="36" height="36" decoding="async"
-                    src="/assets/images/iconbox/icon5.svg" style={{ color: "transparent" }} />
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>IT Management <br /> Service</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="2">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <img alt="icon" width="36" height="36" decoding="async"
-                    src="/assets/images/iconbox/icon6.svg" style={{ color: "transparent" }} />
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>UI/UX &amp; Br/anding <br /> Identity</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style={{ width: "292.167px", marginRight: "30px" }} data-swiper-slide-index="3">
-              <div class="optech-iconbox-wrap">
-                <div class="optech-iconbox-icon">
-                  <img alt="icon" width="36" height="36" decoding="async"
-                    src="/assets/images/iconbox/icon7.svg" style={{ color: "transparent" }} />
-                </div>
-                <div class="optech-iconbox-data">
-                  <h5>Web &amp; Mobile App <br /> Development</h5>
-                  <p>Developing a comprehensive IT strategy that aligns.</p>
-                  <a class="optech-icon-btn" href="/service-details">
-                    <i class="icon-show ri-arrow-right-line"></i>
-                    <span>Learn More</span>
-                    <i class="icon-hide ri-arrow-right-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>  
-          <div className="text-center mt-5">
-            <p>
-              Interested in partnering with us?{" "}
-              <NavLink to="/Contact" className="text-primary fw-bold">
-                Let's connect
-              </NavLink>
-              .
-            </p>
-          </div>
-        </div>
-      </section>
+    
 
       {/* Final Call to Action */}
       <section className="final-cta py-5 text-white text-center">
@@ -591,7 +478,168 @@ const Consulting = () => {
           </NavLink>
         </div>
       </section>
+       <section id="call-to-action-2" className="call-to-action-2 section dark-background">
+                    <div className="container">
+                        <div className="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                            <div className="col-xl-10">
+                                <div className="text-center">
+                                    <h3>Innovation Starts Here</h3>
+                                    <p>Whether you're scaling up, launching a product, or securing your digital assets — we’ve got your back. Partner with us to unlock next-gen solutions.</p>
+                                    <a className="cta-btn" href="#">Let’s Talk →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact" className="contact section light-background">
+                    <div className="container section-title" data-aos="fade-up">
+                        <h2>Contact</h2>
+                    </div>
+
+                    <div className="container" data-aos="fade-up" data-aos-delay="100">
+
+                        <div className="row g-4 g-lg-5">
+                            <div className="col-lg-5">
+                                <div className="info-box" data-aos="fade-up" data-aos-delay="200">
+                                    <h3>Contact Info</h3>
+                                    <p>We're here to help you navigate your tech needs—whether you're looking for AI solutions, cybersecurity, or custom development.</p>
+
+                                    <div className="info-item" data-aos="fade-up" data-aos-delay="300">
+                                        <div className="icon-box">
+                                            <i className="bi bi-geo-alt"></i>
+                                        </div>
+                                        <div className="content">
+                                            <h4>Our Location</h4>
+                                            <p>A108 Adam Street</p>
+                                            <p>New York, NY 535022</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="info-item" data-aos="fade-up" data-aos-delay="400">
+                                        <div className="icon-box">
+                                            <i className="bi bi-telephone"></i>
+                                        </div>
+                                        <div className="content">
+                                            <h4>Phone Number</h4>
+                                            <p>+1 5589 55488 55</p>
+                                            <p>+1 6678 254445 41</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="info-item" data-aos="fade-up" data-aos-delay="500">
+                                        <div className="icon-box">
+                                            <i className="bi bi-envelope"></i>
+                                        </div>
+                                        <div className="content">
+                                            <h4>Email Address</h4>
+                                            <p>info@example.com</p>
+                                            <p>contact@example.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-7">
+                                <div className="contact-form" data-aos="fade-up" data-aos-delay="300">
+                                    <h3>Get In Touch</h3>
+                                    <p>Tell us about your project, ask a question, or just say hello. We’re ready to respond and excited to work with you.</p>
+
+                                    <form action="forms/contact.php" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                                        <div className="row gy-4">
+
+                                            <div className="col-md-6">
+                                                <input type="text" name="name" className="form-control" placeholder="Your Name" required="" />
+                                            </div>
+
+                                            <div className="col-md-6 ">
+                                                <input type="email" className="form-control" name="email" placeholder="Your Email" required="" />
+                                            </div>
+
+                                            <div className="col-12">
+                                                <input type="text" className="form-control" name="subject" placeholder="Subject" required="" />
+                                            </div>
+
+                                            <div className="col-12">
+                                                <textarea className="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                                            </div>
+
+                                            <div className="col-12 text-center">
+                                                <div className="loading">Loading</div>
+                                                <div className="error-message"></div>
+                                                <div className="sent-message">Your message has been sent. Thank you!</div>
+
+                                                <button type="submit" className="btn">Send Message</button>
+                                            </div>
+
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
     </div>
+              </main>
+
+              <footer id="footer" className="footer">
+
+                <div className="container footer-top">
+                    <div className="row gy-4">
+                        <div className="col-lg-4 col-md-6 footer-about">
+                            <a href="index.html" className="logo d-flex align-items-center">
+                                <span className="sitename">ParinSoft</span>
+                            </a>
+                            <div className="footer-contact pt-3">
+                                <p>A108 Adam Street</p>
+                                <p>New York, NY 535022</p>
+                                <p className="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                                <p><strong>Email:</strong> <span>info@example.com</span></p>
+                            </div>
+                            <div className="social-links d-flex mt-4">
+                                <a href=""><i className="bi bi-twitter-x"></i></a>
+                                <a href=""><i className="bi bi-facebook"></i></a>
+                                <a href=""><i className="bi bi-instagram"></i></a>
+                                <a href=""><i className="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-3 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">FAQ's</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+
+                        <div className="col-lg-4 col-md-3 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Product Management</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Graphic Design</a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+
+                <div className="container copyright text-center mt-4">
+                    <p>© <span>Copyright</span> <strong className="px-1 sitename">EDI Systems</strong> <span>All Rights Reserved</span></p>
+                    <div className="credits">
+                    </div>
+                </div>
+
+            </footer>
+      
     </div>
     
   );

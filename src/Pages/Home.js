@@ -4,8 +4,9 @@
 // eslint-disable-next-line jsx-a11y/anchor-is-valid
 // eslint-disable-next-line jsx-a11y/heading-has-content
 // eslint-disable-next-line react/jsx-no-target-blank
-import React from 'react'
+import React , { useEffect }from 'react'
 import { NavLink } from "react-router-dom";
+import PureCounter from '@srexi/purecounterjs';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/main.css'
 import Illustration1 from '../img/illustration-1.webp';
@@ -37,6 +38,9 @@ import Logo from "../img/ParinSoft.png";
 
 
 const Home = () => {
+      useEffect(() => {
+    new PureCounter();
+  }, []);
     return (
         <div>
             <header id="header" className="header d-flex align-items-center fixed-top">
@@ -164,22 +168,22 @@ const Home = () => {
                         <div className="row gy-4 align-items-center justify-content-between">
                             <div className="col-xl-5" data-aos="fade-up" data-aos-delay="200">
                                 <span className="about-meta">MORE ABOUT US</span>
-                                <h2 className="about-title">Voluptas enim suscipit temporibus</h2>
-                                <p className="about-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <h2 className="about-title">Innovating with Purpose, Delivering with Precision</h2>
+                                <p className="about-description">At Parinsoft, we believe technology should be both powerful and purposeful. With a strong foundation in AI, Machine Learning, Cybersecurity, and Software Development, we are committed to transforming ideas into impactful digital solutions. Our mission is to help businesses thrive in a fast-paced digital world through intelligent systems and secure frameworks.</p>
 
                                 <div className="row feature-list-wrapper">
                                     <div className="col-md-6">
                                         <ul className="feature-list">
-                                            <li><i className="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet</li>
-                                            <li><i className="bi bi-check-circle-fill"></i> Consectetur adipiscing elit</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> Deep expertise in advanced technologies</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> Client-focused development approach</li>
                                             <li><i className="bi bi-check-circle-fill"></i> Sed do eiusmod tempor</li>
                                         </ul>
                                     </div>
                                     <div className="col-md-6">
                                         <ul className="feature-list">
-                                            <li><i className="bi bi-check-circle-fill"></i> Incididunt ut labore et</li>
-                                            <li><i className="bi bi-check-circle-fill"></i> Dolore magna aliqua</li>
-                                            <li><i className="bi bi-check-circle-fill"></i> Ut enim ad minim veniam</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> Agile and scalable solutions tailored to your needs</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> Strong emphasis on quality and data security</li>
+                                            <li><i className="bi bi-check-circle-fill"></i> A dedicated team committed to continuous innovation</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -229,7 +233,7 @@ const Home = () => {
                 <section id="features" className="features section">
                     <div className="container section-title" data-aos="fade-up">
                         <h2>Features</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                        <p>Delivering Innovative IT Solutions with Excellence</p>
                     </div>
                     <div className="container">
                         <div className="d-flex justify-content-center">
@@ -237,17 +241,17 @@ const Home = () => {
 
                                 <li className="nav-item">
                                     <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                                        <h4>Modisit</h4>
+                                        <h4>Our Services</h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                                        <h4>Praesenti</h4>
+                                        <h4>Technical Expertise</h4>
                                     </a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                                        <h4>Explica</h4>
+                                        <h4>Our Clients</h4>
                                     </a>
                                 </li>
                             </ul>
@@ -257,15 +261,17 @@ const Home = () => {
                             <div className="tab-pane fade active show" id="features-tab-1">
                                 <div className="row">
                                     <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                                        <h3>Voluptatem dignissimos provident</h3>
+                                        <h3>Custom IT Solutions for Business Excellence</h3>
                                         <p className="fst-italic">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                            magna aliqua.
+                                            Based on the Parinsoft website, here are three key sections highlighting their offerings:
+
+Our Services: Custom IT Solutions for Business Excellence
+Parinsoft provides a comprehensive suite of IT services designed to drive business success through innovation and tailored solutions. Their expertise covers the entire software development lifecycle, ensuring applications are not only visually appealing and user-friendly but also highly functional and information-rich. They focus on delivering high-quality, ROI-driven enterprise-level applications.
                                         </p>
                                         <ul>
-                                            <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                                            <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                                            <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                            <li><i className="bi bi-check2-all"></i> <span>End-to-end software development lifecycle management: From initial concept to deployment and ongoing support.</span></li>
+                                            <li><i className="bi bi-check2-all"></i> <span>Agile methodology for flexible and timely delivery: Ensuring adaptability to evolving project needs.</span></li>
+                                            <li><i className="bi bi-check2-all"></i> <span>Seamless integration with existing systems: For efficient and cohesive business operations.</span></li>
                                         </ul>
                                     </div>
                                     <div className="col-lg-6 order-1 order-lg-2 text-center">
@@ -273,20 +279,18 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="tab-pane fade" id="features-tab-2">
                                 <div className="row">
                                     <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                                        <h3>Neque exercitationem debitis</h3>
+                                        <h3>A Foundation of Advanced Technologies</h3>
                                         <p className="fst-italic">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                            magna aliqua.
+                                            Parinsoft leverages a wide range of modern technologies and platforms to develop robust and scalable solutions. Their programming expertise includes:
                                         </p>
                                         <ul>
-                                            <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                                            <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                                            <li><i className="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                                            <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                            <li><i className="bi bi-check2-all"></i> <span>Microsoft .NET Technologies: Asp.Net, Asp.Net MVC, Ado.Net, Ado.Net Entity Framework, C#, VB.Net, WPF, and Windows application development.</span></li>
+                                            <li><i className="bi bi-check2-all"></i> <span>Mobile & Web Technologies: iOS, Android, JAVA, PHP, HTML, XML, Javascript, and jQuery.</span></li>
+                                            <li><i className="bi bi-check2-all"></i> <span>Databases & Content Management Systems: Microsoft SQL Server, Oracle, MySQL, WordPress, Prestashop, WooCommerce, and Magento.</span></li>
+                                            <li><i className="bi bi-check2-all"></i> <span>Design Tools: Adobe Photoshop and Adobe Illustrator.</span></li>
                                         </ul>
                                     </div>
                                     <div className="col-lg-6 order-1 order-lg-2 text-center">
@@ -294,19 +298,12 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="tab-pane fade" id="features-tab-3">
                                 <div className="row">
                                     <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                                        <h3>Voluptatibus commodi accusamu</h3>
-                                        <ul>
-                                            <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                                            <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                                            <li><i className="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                                        </ul>
+                                        <h3>Client-Centric Approach and Quality Assurance</h3>
                                         <p className="fst-italic">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                            magna aliqua.
+                                            Parinsoft is committed to client satisfaction and quality excellence. They emphasize a client-centered and quality-conscious approach to software development, ensuring that their solutions meet current needs and help clients stay competitive in the evolving digital landscape. Their team comprises skilled and experienced IT professionals, many holding certifications like Microsoft Certified Technology Specialist, Microsoft Certified Professional Developer, and Oracle Certified Professional. They have a dedicated Quality Control team to ensure rigorous testing and quality at all stages of development, providing a "one-stop service" for the entire product lifecycle, from analysis and design to implementation, testing, deployment, and maintenance.
                                         </p>
                                     </div>
                                     <div className="col-lg-6 order-1 order-lg-2 text-center">
@@ -314,7 +311,6 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
@@ -327,29 +323,29 @@ const Home = () => {
                             <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="feature-box orange">
                                     <i className="bi bi-award"></i>
-                                    <h4>Corporis voluptates</h4>
-                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                    <h4>Trusted Expertise</h4>
+                                    <p>We deliver reliable, high-quality solutions backed by years of experience and a proven track record across industries.</p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="feature-box blue">
                                     <i className="bi bi-patch-check"></i>
-                                    <h4>Explicabo consectetur</h4>
-                                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                                    <h4>Tailored Solutions</h4>
+                                    <p>Our team designs custom-fit digital solutions that align precisely with your business needs and long-term goals.</p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                                 <div className="feature-box green">
                                     <i className="bi bi-sunrise"></i>
-                                    <h4>Ullamco laboris</h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                    <h4>Innovation-Driven</h4>
+                                    <p>We stay ahead with cutting-edge technologies like AI, ML, and Data Science to foster growth and smarter operations.</p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                                 <div className="feature-box red">
                                     <i className="bi bi-shield-check"></i>
-                                    <h4>Labore consequatur</h4>
-                                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                    <h4>Security First</h4>
+                                    <p>With cybersecurity at our core, we build systems that are secure, compliant, and resilient against evolving threats. </p>
                                 </div>
                             </div>
                         </div>
@@ -364,7 +360,7 @@ const Home = () => {
                                     <div className="d-flex align-items-center justify-content-end gap-4">
                                         <div className="feature-content">
                                             <h3>Use On Any Device</h3>
-                                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.</p>
+                                            <p>Our applications are fully optimized for mobile, tablet, and desktop environments, ensuring seamless performance across all platforms.</p>
                                         </div>
                                         <div className="feature-icon flex-shrink-0">
                                             <i className="bi bi-display"></i>
@@ -375,7 +371,7 @@ const Home = () => {
                                     <div className="d-flex align-items-center justify-content-end gap-4">
                                         <div className="feature-content">
                                             <h3>Feather Icons</h3>
-                                            <p>Phasellus ullamcorper ipsum rutrum nunc nunc nonummy metus vestibulum volutpat sapien arcu sed augue aliquam erat volutpat.</p>
+                                            <p>Enjoy a clean and intuitive interface enhanced with lightweight, responsive icons that make navigation effortless and appealing.</p>
                                         </div>
                                         <div className="feature-icon flex-shrink-0">
                                             <i className="bi bi-feather"></i>
@@ -386,7 +382,7 @@ const Home = () => {
                                     <div className="d-flex align-items-center justify-content-end gap-4">
                                         <div className="feature-content">
                                             <h3>Retina Ready</h3>
-                                            <p>Aenean tellus metus bibendum sed posuere ac mattis non nunc vestibulum fringilla purus sit amet fermentum aenean commodo.</p>
+                                            <p>Crafted for high-resolution displays, our designs deliver sharp visuals and vibrant detail on all modern screens and devices.</p>
                                         </div>
                                         <div className="feature-icon flex-shrink-0">
                                             <i className="bi bi-eye"></i>
@@ -408,7 +404,7 @@ const Home = () => {
                                         </div>
                                         <div className="feature-content">
                                             <h3>W3c Valid Code</h3>
-                                            <p>Donec vitae sapien ut libero venenatis faucibus nullam quis ante etiam sit amet orci eget eros faucibus tincidunt.</p>
+                                            <p>We follow the latest web standards, ensuring clean, compliant, and optimized code for performance, accessibility, and security.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -419,7 +415,7 @@ const Home = () => {
                                         </div>
                                         <div className="feature-content">
                                             <h3>Fully Responsive</h3>
-                                            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p>
+                                            <p>Our solutions automatically adapt to any screen size, offering a consistent and user-friendly experience on every device.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -430,7 +426,7 @@ const Home = () => {
                                         </div>
                                         <div className="feature-content">
                                             <h3>Browser Compatibility</h3>
-                                            <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus elementum semper nisi aenean vulputate.</p>
+                                            <p>Built to perform across all major browsers—Chrome, Firefox, Safari, and Edge—without compromising functionality or appearance.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -443,9 +439,9 @@ const Home = () => {
                     <div className="container" data-aos="fade-up" data-aos-delay="100">
                         <div className="row content justify-content-center align-items-center position-relative">
                             <div className="col-lg-8 mx-auto text-center">
-                                <h2 className="display-4 mb-4">Maecenas tempus tellus eget condimentum</h2>
-                                <p className="mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel</p>
-                                <a href="#" className="btn btn-cta">Call To Action</a>
+                                <h2 className="display-4 mb-4">Ready to Transform Your Digital Vision?</h2>
+                                <p className="mb-4">Let’s build innovative, secure, and scalable solutions together. Whether you're starting from scratch or upgrading an existing system—we’re here to help you succeed.</p>
+                                <a href="#" className="btn btn-cta">Get Started Today</a>
                             </div>
                             <div className="shape shape-1">
                                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -699,7 +695,7 @@ const Home = () => {
                 <section id="services" className="services section light-background">
                     <div className="container section-title" data-aos="fade-up">
                         <h2>Services</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                        <p>We offer cutting-edge technology solutions designed to empower your business and future-proof your digital journey</p>
                     </div>
 
                     <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -712,8 +708,8 @@ const Home = () => {
                                         <i className="bi bi-activity"></i>
                                     </div>
                                     <div>
-                                        <h3>Nesciunt Mete</h3>
-                                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                                        <h3>AI / ML</h3>
+                                        <p>We bring over a decade of experience in AI/ML, blending strategic innovation with deep technical expertise to build intelligent, ethical, and scalable solutions tailored for real-world impact.</p>
                                         <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -725,8 +721,8 @@ const Home = () => {
                                         <i className="bi bi-diagram-3"></i>
                                     </div>
                                     <div>
-                                        <h3>Eosle Commodi</h3>
-                                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                                        <h3>Cyber Security</h3>
+                                        <p>From web application security to Identity and Access Management (IAM), we protect what matters most through proactive, advanced, and ethical cybersecurity practices.</p>
                                         <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -738,8 +734,8 @@ const Home = () => {
                                         <i className="bi bi-easel"></i>
                                     </div>
                                     <div>
-                                        <h3>Ledo Markt</h3>
-                                        <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                                        <h3>Application Development</h3>
+                                        <p>Harnessing technologies like Java, .NET, Python, Golang, and PHP, we create robust, scalable applications that power innovation and operational efficiency.</p>
                                         <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -751,8 +747,35 @@ const Home = () => {
                                         <i className="bi bi-clipboard-data"></i>
                                     </div>
                                     <div>
-                                        <h3>Asperiores Commodit</h3>
-                                        <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                                        <h3>Mobile App Development</h3>
+                                        <p>We build native and cross-platform mobile apps using Flutter and React Native, offering seamless user experiences and performance across devices.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-clipboard-data"></i>
+                                    </div>
+                                    <div>
+                                        <h3>IT Staffing and Consulting</h3>
+                                        <p>Our strategic IT staffing and consulting services help you access the right talent and expert guidance to accelerate your digital initiatives and navigate IT complexity.</p>
+                                        <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                                <div className="service-card d-flex">
+                                    <div className="icon flex-shrink-0">
+                                        <i className="bi bi-clipboard-data"></i>
+                                    </div>
+                                    <div>
+                                        <h3>IT Trainings</h3>
+                                        <p>Stay ahead with hands-on training in:</p>
+                                        <p>AI/ML & Data Science</p>
+                                        <p>Cybersecurity & IAM</p>
+                                        <p>Fullstack Development (Java, .NET, Python, Node.js)Upskill your team and build tomorrow’s tech leaders today.</p>
                                         <a href="service-details.html" className="read-more">Read More <i className="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -871,9 +894,9 @@ const Home = () => {
                         <div className="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                             <div className="col-xl-10">
                                 <div className="text-center">
-                                    <h3>Call To Action</h3>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    <a className="cta-btn" href="#">Call To Action</a>
+                                    <h3>Innovation Starts Here</h3>
+                                    <p>Whether you're scaling up, launching a product, or securing your digital assets — we’ve got your back. Partner with us to unlock next-gen solutions.</p>
+                                    <a className="cta-btn" href="#">Let’s Talk →</a>
                                 </div>
                             </div>
                         </div>
@@ -883,7 +906,6 @@ const Home = () => {
                 <section id="contact" className="contact section light-background">
                     <div className="container section-title" data-aos="fade-up">
                         <h2>Contact</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                     </div>
 
                     <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -892,7 +914,7 @@ const Home = () => {
                             <div className="col-lg-5">
                                 <div className="info-box" data-aos="fade-up" data-aos-delay="200">
                                     <h3>Contact Info</h3>
-                                    <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+                                    <p>We're here to help you navigate your tech needs—whether you're looking for AI solutions, cybersecurity, or custom development.</p>
 
                                     <div className="info-item" data-aos="fade-up" data-aos-delay="300">
                                         <div className="icon-box">
@@ -932,7 +954,7 @@ const Home = () => {
                             <div className="col-lg-7">
                                 <div className="contact-form" data-aos="fade-up" data-aos-delay="300">
                                     <h3>Get In Touch</h3>
-                                    <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+                                    <p>Tell us about your project, ask a question, or just say hello. We’re ready to respond and excited to work with you.</p>
 
                                     <form action="forms/contact.php" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="200">
                                         <div className="row gy-4">
