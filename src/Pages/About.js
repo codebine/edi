@@ -69,7 +69,7 @@
           <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
             <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-              <h1 className="sitename">EDI Systems</h1>
+              <h1 className="sitename">Parinsoft</h1>
             </a>
 
             <nav id="navmenu" className="navmenu">
@@ -430,7 +430,7 @@
                 </div>
 
                 <div className="container copyright text-center mt-4">
-                    <p>© <span>Copyright</span> <strong className="px-1 sitename">EDI Systems</strong> <span>All Rights Reserved</span></p>
+                    <p>© <span>Copyright</span> <strong className="px-1 sitename">Parinsoft</strong> <span>All Rights Reserved</span></p>
                     <div className="credits">
                     </div>
                 </div>

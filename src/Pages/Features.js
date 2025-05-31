@@ -16,7 +16,7 @@ const Features = () => {
             className="logo d-flex align-items-center me-auto me-xl-0"
           >
             {/* <img src="assets/img/logo.png" alt=""/> */}
-            <h1 className="sitename">EDI Systems</h1>
+            <h1 className="sitename">Parinsoft</h1>
           </a>
 
           <nav id="navmenu" className="navmenu">
@@ -400,7 +400,7 @@ const Features = () => {
                 </div>
 
                 <div className="container copyright text-center mt-4">
-                    <p>© <span>Copyright</span> <strong className="px-1 sitename">EDI Systems</strong> <span>All Rights Reserved</span></p>
+                    <p>© <span>Copyright</span> <strong className="px-1 sitename">Parinsoft</strong> <span>All Rights Reserved</span></p>
                     <div className="credits">
                     </div>
                 </div>
