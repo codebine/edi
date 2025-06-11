@@ -1,23 +1,19 @@
 {
   "files": {
     "main.css": "/edi/static/css/main.08365f7d.css",
-    "main.js": "/edi/static/js/main.d9f47ab3.js",
+    "main.js": "/edi/static/js/main.6a79c3ec.js",
     "static/js/453.ba74c8e2.chunk.js": "/edi/static/js/453.ba74c8e2.chunk.js",
     "static/media/company-image.jpg": "/edi/static/media/company-image.e02742de0a96f7e29f01.jpg",
-    "static/media/avatar-4.webp": "/edi/static/media/avatar-4.4ac22b05c6f4c5df9631.webp",
     "static/media/company-image-2.jpg": "/edi/static/media/company-image-2.cb410495f4f71ad58118.jpg",
     "static/media/company-image-3.jpg": "/edi/static/media/company-image-3.291a3b756fd138bbc6b8.jpg",
     "static/media/about-5.webp": "/edi/static/media/about-5.4ea2bab0b61e85c024a1.webp",
-    "static/media/illustration2.svg": "/edi/static/media/illustration2.2b9b66d3f73d2e14b2f690c6d63b0447.svg",
+    "static/media/illustration2.svg": "/edi/static/media/illustration2.d98c74d3ba9631249cd3b45398af585b.svg",
     "static/media/avatar-1.webp": "/edi/static/media/avatar-1.b0d839aacb1e2dc526d7.webp",
     "static/media/testimonials-2.jpg": "/edi/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
     "static/media/course-01.jpg": "/edi/static/media/course-01.6bafc12682e0560ce548.jpg",
     "static/media/about-header.jpg": "/edi/static/media/about-header.ccfcc9546c29282c50c7.jpg",
-    "static/media/illustration3.svg": "/edi/static/media/illustration3.6e20b7dd2c45dcc459fdeb883775d78d.svg",
-    "static/media/avatar-2.webp": "/edi/static/media/avatar-2.f0daede6c4d3228da749.webp",
-    "static/media/avatar-3.webp": "/edi/static/media/avatar-3.486d0cf137d296178d4b.webp",
+    "static/media/illustration3.svg": "/edi/static/media/illustration3.1e8ec7b67822d4d5b13b80a02f4aded9.svg",
     "static/media/about-2.webp": "/edi/static/media/about-2.1d60d75fdfac1c2aa39a.webp",
-    "static/media/phone-app-screen.webp": "/edi/static/media/phone-app-screen.a96591a721ae059d3da1.webp",
     "static/media/course-03.jpg": "/edi/static/media/course-03.9f75d8447120bcf954b3.jpg",
     "static/media/course-04.jpg": "/edi/static/media/course-04.99026e5568f53877ccfa.jpg",
     "static/media/illustration-1.webp": "/edi/static/media/illustration-1.d1413b5204de6f9875c1.webp",
@@ -25,13 +21,12 @@
     "static/media/gallery-4.jpg": "/edi/static/media/gallery-4.a94caaa694ecfc4e646f.jpg",
     "static/media/gallery-3.jpg": "/edi/static/media/gallery-3.335296b4b7a0cebadf9d.jpg",
     "static/media/gallery-1.jpg": "/edi/static/media/gallery-1.4cd22a2a1afd94e3d302.jpg",
-    "static/media/avatar-5.webp": "/edi/static/media/avatar-5.01cd2c038061cf8675ef.webp",
     "static/media/course-05.jpg": "/edi/static/media/course-05.625dcea695240c6a477a.jpg",
     "static/media/course-02.jpg": "/edi/static/media/course-02.e7d212be582b52be7aaf.jpg",
     "static/media/features-illustration-3.webp": "/edi/static/media/features-illustration-3.7811a7b59f600737b8d5.webp",
     "static/media/gallery-2.jpg": "/edi/static/media/gallery-2.41c1cd0b3eac10c5c9ac.jpg",
+    "static/media/illustration1.svg": "/edi/static/media/illustration1.6837ed6977ed1b8d086109c98abe868b.svg",
     "static/media/course-06.jpg": "/edi/static/media/course-06.7a2a9f5af085ba8e21c0.jpg",
-    "static/media/illustration1.svg": "/edi/static/media/illustration1.37bbf11c45a703352832571d08bf4d27.svg",
     "static/media/features-illustration-2.webp": "/edi/static/media/features-illustration-2.f1301ecee01c558b26cd.webp",
     "static/media/gallery-5.jpg": "/edi/static/media/gallery-5.a7ac717479ee983860e3.jpg",
     "static/media/member-1.jpg": "/edi/static/media/member-1.9f9cdefd6618ff6887bc.jpg",
@@ -43,11 +38,11 @@
     "static/media/testimonials-3.jpg": "/edi/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/edi/index.html",
     "main.08365f7d.css.map": "/edi/static/css/main.08365f7d.css.map",
-    "main.d9f47ab3.js.map": "/edi/static/js/main.d9f47ab3.js.map",
+    "main.6a79c3ec.js.map": "/edi/static/js/main.6a79c3ec.js.map",
     "453.ba74c8e2.chunk.js.map": "/edi/static/js/453.ba74c8e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08365f7d.css",
-    "static/js/main.d9f47ab3.js"
+    "static/js/main.6a79c3ec.js"
   ]
 }
