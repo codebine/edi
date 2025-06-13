@@ -5,7 +5,7 @@
 // Removed specific anchor-is-valid and heading-has-content disables,
 // as the refactoring will address many of these.
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useState } from 'react'; // Import useState
+import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/main.css';
@@ -53,31 +53,60 @@ const Services = () => {
     // Check if the course's classes contain the active filter class
     return courseClasses.includes(activeFilter.substring(1)); // Remove the leading dot from filter
   };
-
+const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    if (isMobileNavOpen) {
+      document.body.classList.add('mobile-nav-active');
+    } else {
+      document.body.classList.remove('mobile-nav-active');
+    }
+    return () => {
+      document.body.classList.remove('mobile-nav-active');
+    };
+  }, [isMobileNavOpen]);
+  const toggleMobileNav = () => {
+    setIsMobileNavOpen(!isMobileNavOpen);
+  };
+  const closeMobileNav = () => {
+    setIsMobileNavOpen(false);
+  };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <div>
-      <header id="header" className="header d-flex align-items-center fixed-top">
+      <header id="header" className={`header d-flex align-items-center fixed-top ${isScrolled ? 'scrolled' : ''}`}>
         <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-          <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-            <img src={Logo} alt="" />
-          </a>
+          <NavLink to="/" className="logo d-flex align-items-center me-auto me-xl-0">
+            <img src={Logo} alt="ParinSoft Logo" onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/150x40/cccccc/333333?text=Logo" }} />
+          </NavLink>
 
+          {/* Main navigation menu */}
           <nav id="navmenu" className="navmenu">
             <ul>
-              <li><NavLink to="/">Home</NavLink></li>
-              <li><NavLink to="/About">About</NavLink></li>
-              <li><NavLink to="/Services">Services</NavLink></li>
-              <li><NavLink to="/Products">Products</NavLink></li>
-              <li><NavLink to="/Consulting">Consulting</NavLink></li>
-              {/* <li><a > <NavLink to="/Features">Careers</NavLink></a></li> */}
-              <li><NavLink to="/Contact">Contact</NavLink></li>
+              <li><NavLink to="/" onClick={closeMobileNav}>Home</NavLink></li>
+              <li><NavLink to="/About" onClick={closeMobileNav}>About</NavLink></li>
+              <li><NavLink to="/Services" onClick={closeMobileNav}>Services</NavLink></li>
+              <li><NavLink to="/Products" onClick={closeMobileNav}>Products</NavLink></li>
+              <li><NavLink to="/Consulting" onClick={closeMobileNav}>Consulting</NavLink></li>
+              <li><NavLink to="/Contact" onClick={closeMobileNav}>Contact</NavLink></li>
             </ul>
-            <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            <i className="mobile-nav-toggle d-xl-none bi bi-list"onClick={toggleMobileNav}></i>
           </nav>
-
-
         </div>
       </header>
+
       <main className='main'>
         <section id="hero" className="hero section">
           <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -93,7 +122,7 @@ const Services = () => {
             </div>
           </div>
         </section>
-<section className="section courses" id="courses" >
+        <section className="section courses" id="courses" >
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -271,7 +300,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        
+
         <section id="features" className="features section section-md">
           <div className="container section-title" data-aos="fade-up">
             <h2>Features</h2>
