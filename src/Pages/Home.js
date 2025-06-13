@@ -53,11 +53,11 @@ const Home = () => {
 
                     <nav id="navmenu" className="navmenu">
                         <ul>
-                            <li><a> <NavLink to="/" >Home</NavLink></a></li>
-                            <li><a ><NavLink to="/About">About</NavLink></a></li>
-                            <li><a > <NavLink to="/Services">Services</NavLink></a></li>
-                            <li><a ><NavLink to="/Products">Products</NavLink></a></li>
-                            <li><a ><NavLink to="/Consulting">Consulting</NavLink></a></li>
+                            <li><NavLink to="/">Home</NavLink></li>
+                            <li><NavLink to="/About">About</NavLink></li>
+                            <li><NavLink to="/Services">Services</NavLink></li>
+                            <li><NavLink to="/Products">Products</NavLink></li>
+                            <li><NavLink to="/Consulting">Consulting</NavLink></li>
                             {/* <li><a > <NavLink to="/Features">Careers</NavLink></a></li> */}
                             <li><NavLink to="/Contact">Contact</NavLink></li>
                         </ul>

@@ -29,9 +29,9 @@ import gallery10 from "../img/company/gallery-5.jpg"; // Using gallery5 again fo
 import gallery11 from "../img/company/gallery-1.jpg"; // Using gallery1 again for demo
 import gallery12 from "../img/company/gallery-2.jpg"; // Using gallery2 again for demo
 
-import member1 from "../img/team/member-1.jpg";
-import member2 from "../img/team/member-2.jpg";
-import member3 from "../img/team/member-3.jpg";
+// import member1 from "../img/team/member-1.jpg";
+// import member2 from "../img/team/member-2.jpg";
+// import member3 from "../img/team/member-3.jpg";
 import Logo from "../img/ParinSoft.png";
 // Helper function to chunk an array into smaller arrays
 const chunkArray = (arr, chunkSize) => {
@@ -167,11 +167,6 @@ const About = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/Features" onClick={closeMobileNav}>
-                  Careers
-                </NavLink>
-              </li>
-              <li>
                 <NavLink to="/Contact" onClick={closeMobileNav}>
                   Contact
                 </NavLink>
@@ -186,6 +181,8 @@ const About = () => {
               onClick={toggleMobileNav}
             ></i>
           </nav>
+
+        
         </div>
       </header>
 
@@ -292,7 +289,7 @@ const About = () => {
           </div>
         </section>
 
-        <section className="team" id="team">
+        {/* <section className="team" id="team">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-6 col-lg-8">
@@ -372,7 +369,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="call-to-action-2" className="call-to-action-2 section dark-background">
           <div className="container">

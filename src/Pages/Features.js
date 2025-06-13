@@ -2,6 +2,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../css/careers.css"; // Import the CSS file
+import Logo from "../img/ParinSoft.png";
 
 const Features = () => {
   return (
@@ -16,7 +17,7 @@ const Features = () => {
             className="logo d-flex align-items-center me-auto me-xl-0"
           >
             {/* <img src="assets/img/logo.png" alt=""/> */}
-            <h1 className="sitename">Parinsoft</h1>
+            <img src={Logo} alt="" />
           </a>
 
           <nav id="navmenu" className="navmenu">

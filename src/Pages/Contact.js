@@ -116,11 +116,7 @@ const Contact = () => {
                   Consulting
                 </NavLink>
               </li>
-              <li>
-                <NavLink to="/Features" onClick={closeMobileNav}>
-                  Careers
-                </NavLink>
-              </li>
+            
               <li>
                 <NavLink to="/Contact" onClick={closeMobileNav}>
                   Contact

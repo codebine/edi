@@ -24,18 +24,19 @@ import Course6 from '../img/course-06.jpg';
 import Features1 from '../img/features-illustration-1.webp';
 import Features2 from '../img/features-illustration-2.webp';
 import Features3 from '../img/features-illustration-3.webp';
-import Testimonials1 from "../img/testimonials/testimonials-1.jpg";
-import Testimonials2 from "../img/testimonials/testimonials-2.jpg";
-import Testimonials3 from "../img/testimonials/testimonials-3.jpg";
-import Testimonials4 from "../img/testimonials/testimonials-4.jpg";
-import client1 from "../img/clients/client-1.png";
-import client2 from "../img/clients/client-2.png";
-import client3 from "../img/clients/client-3.png";
-import client4 from "../img/clients/client-4.png";
-import client5 from "../img/clients/client-5.png";
-import client6 from "../img/clients/client-6.png";
-import client7 from "../img/clients/client-7.png";
-import client8 from "../img/clients/client-8.png";
+// import Testimonials1 from "../img/testimonials/testimonials-1.jpg";
+// import Testimonials2 from "../img/testimonials/testimonials-2.jpg";
+// import Testimonials3 from "../img/testimonials/testimonials-3.jpg";
+// import Testimonials4 from "../img/testimonials/testimonials-4.jpg";
+// import client1 from "../img/clients/client-1.png";
+// import client2 from "../img/clients/client-2.png";
+// import client3 from "../img/clients/client-3.png";
+// import client4 from "../img/clients/client-4.png";
+// import client5 from "../img/clients/client-5.png";
+// import client6 from "../img/clients/client-6.png";
+// import client7 from "../img/clients/client-7.png";
+// import client8 from "../img/clients/client-8.png";
+import Logo from "../img/ParinSoft.png";
 
 const Services = () => {
   // Use state to manage the active filter
@@ -58,7 +59,7 @@ const Services = () => {
       <header id="header" className="header d-flex align-items-center fixed-top">
         <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
           <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-            <h1 className="sitename">Parinsoft</h1>
+            <img src={Logo} alt="" />
           </a>
 
           <nav id="navmenu" className="navmenu">
@@ -92,53 +93,7 @@ const Services = () => {
             </div>
           </div>
         </section>
-
-        <div className="section optech-section-padding5 section-md">
-          <div className="container">
-            <div className="optech-section-title center">
-              <h2>Our working process on how to grow your business</h2>
-            </div>
-            <div className="row z-index">
-              <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="500">
-                <div className="optech-numberbox-wrap">
-                  <div className="optech-numberbox-icon">
-                    <img alt="Initiation and Planning Icon" width="228" height="220" decoding="async" src={img1} />
-                  </div>
-                  <div className="optech-numberbox-data">
-                    <span>01</span>
-                    <h4>Initiation &amp; Planning</h4>
-                    <p>We are architects and innovation trailblazers of technological advancement.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
-                <div className="optech-numberbox-wrap">
-                  <div className="optech-numberbox-icon">
-                    <img alt="Execution and Development Icon" width="228" height="220" decoding="async" src={img2} />
-                  </div>
-                  <div className="optech-numberbox-data">
-                    <span>02</span>
-                    <h4>Execution &amp; Development</h4>
-                    <p>We are architects and innovation trailblazers of technological advancement.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="900">
-                <div className="optech-numberbox-wrap">
-                  <div className="optech-numberbox-icon">
-                    <img alt="Testing and Maintenance Icon" width="228" height="220" decoding="async" src={img3} />
-                  </div>
-                  <div className="optech-numberbox-data">
-                    <span>03</span>
-                    <h4>Testing &amp; Maintenance</h4>
-                    <p>We are architects and innovation trailblazers of technological advancement.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <section className="section courses" id="courses" >
+<section className="section courses" id="courses" >
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
@@ -271,6 +226,52 @@ const Services = () => {
             </div>
           </div>
         </section>
+        <div className="section optech-section-padding5 section-md">
+          <div className="container">
+            <div className="optech-section-title center">
+              <h2>Our working process on how to grow your business</h2>
+            </div>
+            <div className="row z-index">
+              <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="500">
+                <div className="optech-numberbox-wrap">
+                  <div className="optech-numberbox-icon">
+                    <img alt="Initiation and Planning Icon" width="228" height="220" decoding="async" src={img1} />
+                  </div>
+                  <div className="optech-numberbox-data">
+                    <span>01</span>
+                    <h4>Initiation &amp; Planning</h4>
+                    <p>We are architects and innovation trailblazers of technological advancement.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="700">
+                <div className="optech-numberbox-wrap">
+                  <div className="optech-numberbox-icon">
+                    <img alt="Execution and Development Icon" width="228" height="220" decoding="async" src={img2} />
+                  </div>
+                  <div className="optech-numberbox-data">
+                    <span>02</span>
+                    <h4>Execution &amp; Development</h4>
+                    <p>We are architects and innovation trailblazers of technological advancement.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-duration="900">
+                <div className="optech-numberbox-wrap">
+                  <div className="optech-numberbox-icon">
+                    <img alt="Testing and Maintenance Icon" width="228" height="220" decoding="async" src={img3} />
+                  </div>
+                  <div className="optech-numberbox-data">
+                    <span>03</span>
+                    <h4>Testing &amp; Maintenance</h4>
+                    <p>We are architects and innovation trailblazers of technological advancement.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <section id="features" className="features section section-md">
           <div className="container section-title" data-aos="fade-up">
             <h2>Features</h2>
@@ -363,7 +364,7 @@ const Services = () => {
         </section>
 
 
-        <section id="clients" class="clients section">
+        {/* <section id="clients" class="clients section">
           <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div id="clientCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
@@ -414,9 +415,9 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="testimonials" className="testimonials section light-background">
+        {/* <section id="testimonials" className="testimonials section light-background">
           <div className="container section-title" data-aos="fade-up">
             <h2>Testimonials</h2>
             <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -491,7 +492,7 @@ const Services = () => {
 
           </div>
 
-        </section>
+        </section> */}
       </main>
       <footer id="footer" className="footer">
 

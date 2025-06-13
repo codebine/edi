@@ -9,6 +9,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/main.css'
+import Logo from "../img/ParinSoft.png";
 
 
 const Products = () => {
@@ -18,7 +19,7 @@ const Products = () => {
                 <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
                     <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                        <h1 className="sitename">Parinsoft</h1>
+                        <img src={Logo} alt="" />
                     </a>
 
                     <nav id="navmenu" className="navmenu">

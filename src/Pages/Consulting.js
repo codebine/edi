@@ -12,6 +12,7 @@ import Testimonials4 from "../img/testimonials/testimonials-4.jpg";
 import about2 from '../img/about-2.webp';
 import about5 from '../img/about-5.webp';
 import avatar1 from '../img/avatar-1.webp';
+import Logo from "../img/ParinSoft.png";
 
 const Consulting = () => {
   return (
@@ -20,7 +21,7 @@ const Consulting = () => {
         <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
           <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-            <h1 className="sitename">Parinsoft</h1>
+            <img src={Logo} alt="" />
           </a>
 
           <nav id="navmenu" className="navmenu">
@@ -235,7 +236,7 @@ const Consulting = () => {
                     </div>
                   </div>
 
-                  <div className="info-wrapper">
+                  {/* <div className="info-wrapper">
                     <div className="row gy-4">
                       <div className="col-lg-5">
                         <div className="profile d-flex align-items-center gap-3">
@@ -256,7 +257,7 @@ const Consulting = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
 
