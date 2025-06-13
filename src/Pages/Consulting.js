@@ -75,7 +75,7 @@ const Consulting = () => {
           {/* Hero Section */}
           <section className="hero-section text-center text-white d-flex align-items-center justify-content-center">
             <div className="container">
-              <h1 className="display-4 mb-3"> Strategic Consulting for a<b /> Dynamic Future</h1>
+              <h1 className="display-4 mb-3 mt-5"> Strategic Consulting for a<b /> Dynamic Future</h1>
               <p className="lead mb-4">
                 Partner with Parinsoft to navigate complexities, unlock growth,
                 and achieve sustainable success.
