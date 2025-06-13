@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/edi/static/css/main.652891f1.css",
-    "main.js": "/edi/static/js/main.5d39cd84.js",
+    "main.js": "/edi/static/js/main.45f39100.js",
     "static/js/453.ba74c8e2.chunk.js": "/edi/static/js/453.ba74c8e2.chunk.js",
     "static/media/company-image.jpg": "/edi/static/media/company-image.e02742de0a96f7e29f01.jpg",
     "static/media/company-image-2.jpg": "/edi/static/media/company-image-2.cb410495f4f71ad58118.jpg",
     "static/media/company-image-3.jpg": "/edi/static/media/company-image-3.291a3b756fd138bbc6b8.jpg",
     "static/media/about-5.webp": "/edi/static/media/about-5.4ea2bab0b61e85c024a1.webp",
     "static/media/illustration2.svg": "/edi/static/media/illustration2.2b9b66d3f73d2e14b2f690c6d63b0447.svg",
-    "static/media/avatar-1.webp": "/edi/static/media/avatar-1.b0d839aacb1e2dc526d7.webp",
     "static/media/testimonials-2.jpg": "/edi/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
     "static/media/course-01.jpg": "/edi/static/media/course-01.6bafc12682e0560ce548.jpg",
     "static/media/about-header.jpg": "/edi/static/media/about-header.ccfcc9546c29282c50c7.jpg",
@@ -35,11 +34,11 @@
     "static/media/testimonials-3.jpg": "/edi/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/edi/index.html",
     "main.652891f1.css.map": "/edi/static/css/main.652891f1.css.map",
-    "main.5d39cd84.js.map": "/edi/static/js/main.5d39cd84.js.map",
+    "main.45f39100.js.map": "/edi/static/js/main.45f39100.js.map",
     "453.ba74c8e2.chunk.js.map": "/edi/static/js/453.ba74c8e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.652891f1.css",
-    "static/js/main.5d39cd84.js"
+    "static/js/main.45f39100.js"
   ]
 }
