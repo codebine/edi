@@ -11,7 +11,7 @@ import Testimonials3 from "../img/testimonials/testimonials-3.jpg";
 import Testimonials4 from "../img/testimonials/testimonials-4.jpg";
 import about2 from '../img/about-2.webp';
 import about5 from '../img/about-5.webp';
-import avatar1 from '../img/avatar-1.webp';
+// import avatar1 from '../img/avatar-1.webp';
 import Logo from "../img/ParinSoft.png";
 
 const Consulting = () => {
