@@ -12,56 +12,56 @@ import '../css/main.css'
 
 
 const Products = () => {
-  return (
-    <div>
-      <header id="header" className="header d-flex align-items-center fixed-top">
+    return (
+        <div>
+            <header id="header" className="header d-flex align-items-center fixed-top">
                 <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-      
-                  <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                    <h1 className="sitename">Parinsoft</h1>
-                  </a>
-      
-                  <nav id="navmenu" className="navmenu">
-                  <ul>
-                      <li><NavLink to="/">Home</NavLink></li>
-                      <li><NavLink to="/About">About</NavLink></li>
-                      <li><NavLink to="/Services">Services</NavLink></li>
-                      <li><NavLink to="/Products">Products</NavLink></li>
-                      <li><NavLink to="/Consulting">Consulting</NavLink></li>
-                      {/* <li><a > <NavLink to="/Features">Careers</NavLink></a></li> */}
-                      <li><NavLink to="/Contact">Contact</NavLink></li>
-                    </ul>
-                    <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                  </nav>
-      
-                  
-      
+
+                    <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
+                        <h1 className="sitename">Parinsoft</h1>
+                    </a>
+
+                    <nav id="navmenu" className="navmenu">
+                        <ul>
+                            <li><NavLink to="/">Home</NavLink></li>
+                            <li><NavLink to="/About">About</NavLink></li>
+                            <li><NavLink to="/Services">Services</NavLink></li>
+                            <li><NavLink to="/Products">Products</NavLink></li>
+                            <li><NavLink to="/Consulting">Consulting</NavLink></li>
+                            {/* <li><a > <NavLink to="/Features">Careers</NavLink></a></li> */}
+                            <li><NavLink to="/Contact">Contact</NavLink></li>
+                        </ul>
+                        <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                    </nav>
+
+
+
                 </div>
-              </header>
+            </header>
 
-              <main className='main'>
+            <main className='main'>
                 <section id="hero" className="hero section">
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div
-                className="hero-content"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <h1 className="mb-4">
-                  We Know Why
-                  <br />
-                  <span className="accent-text">You're Here </span>
-                </h1>
-                <p className="mb-4 mb-md-5">Consulting</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+                    <div className="container" data-aos="fade-up" data-aos-delay="100">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div
+                                    className="hero-content"
+                                    data-aos="fade-up"
+                                    data-aos-delay="200"
+                                >
+                                    <h1 className="mb-4">
+                                        We Know Why
+                                        <br />
+                                        <span className="accent-text">You're Here </span>
+                                    </h1>
+                                    <p className="mb-4 mb-md-5">Consulting</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-<section id="pricing" className="pricing section light-background">
+                <section id="pricing" className="pricing section light-background">
                     <div className="container section-title" data-aos="fade-up">
                         <h2>Pricing</h2>
                         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -187,9 +187,9 @@ const Products = () => {
                     </div>
 
                 </section>
-              </main>
+            </main>
 
-              <footer id="footer" className="footer">
+            <footer id="footer" className="footer">
 
                 <div className="container footer-top">
                     <div className="row gy-4">
@@ -231,7 +231,7 @@ const Products = () => {
                                 <li><a href="#">Marketing</a></li>
                                 <li><a href="#">Graphic Design</a></li>
                             </ul>
-                        </div>  
+                        </div>
                     </div>
                 </div>
 
@@ -243,9 +243,9 @@ const Products = () => {
 
             </footer>
 
-      
-    </div>
-  );
+
+        </div>
+    );
 };
 
 export default Products;

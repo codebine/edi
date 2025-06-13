@@ -4,7 +4,7 @@
 // eslint-disable-next-line jsx-a11y/anchor-is-valid
 // eslint-disable-next-line jsx-a11y/heading-has-content
 // eslint-disable-next-line react/jsx-no-target-blank
-import React , { useEffect }from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from "react-router-dom";
 import PureCounter from '@srexi/purecounterjs';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -38,16 +38,16 @@ import Logo from "../img/ParinSoft.png";
 
 
 const Home = () => {
-      useEffect(() => {
-    new PureCounter();
-  }, []);
+    useEffect(() => {
+        new PureCounter();
+    }, []);
     return (
         <div>
             <header id="header" className="header d-flex align-items-center fixed-top">
                 <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
                     <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                        <img src={Logo} alt=""/>
+                        <img src={Logo} alt="" />
                         {/* <h1 className="sitename">ParinSoft</h1> */}
                     </a>
 
@@ -64,7 +64,7 @@ const Home = () => {
                         <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
                     </nav>
 
-                    
+
 
                 </div>
             </header>
@@ -265,8 +265,8 @@ const Home = () => {
                                         <p className="fst-italic">
                                             Based on the Parinsoft website, here are three key sections highlighting their offerings:
 
-Our Services: Custom IT Solutions for Business Excellence
-Parinsoft provides a comprehensive suite of IT services designed to drive business success through innovation and tailored solutions. Their expertise covers the entire software development lifecycle, ensuring applications are not only visually appealing and user-friendly but also highly functional and information-rich. They focus on delivering high-quality, ROI-driven enterprise-level applications.
+                                            Our Services: Custom IT Solutions for Business Excellence
+                                            Parinsoft provides a comprehensive suite of IT services designed to drive business success through innovation and tailored solutions. Their expertise covers the entire software development lifecycle, ensuring applications are not only visually appealing and user-friendly but also highly functional and information-rich. They focus on delivering high-quality, ROI-driven enterprise-level applications.
                                         </p>
                                         <ul>
                                             <li><i className="bi bi-check2-all"></i> <span>End-to-end software development lifecycle management: From initial concept to deployment and ongoing support.</span></li>
@@ -787,7 +787,7 @@ Parinsoft provides a comprehensive suite of IT services designed to drive busine
 
                 </section>
 
-                
+
 
                 <section className="faq-9 faq section light-background" id="faq">
                     <div className="container">
@@ -1039,7 +1039,7 @@ Parinsoft provides a comprehensive suite of IT services designed to drive busine
                                 <li><a href="#">Marketing</a></li>
                                 <li><a href="#">Graphic Design</a></li>
                             </ul>
-                        </div>  
+                        </div>
                     </div>
                 </div>
 

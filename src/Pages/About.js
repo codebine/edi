@@ -186,11 +186,6 @@ const About = () => {
               onClick={toggleMobileNav}
             ></i>
           </nav>
-
-          {/* "Get Started" button. Consider using NavLink or Link if it's an internal route. */}
-          <a className="btn-getstarted" href="#about">
-            Get Started
-          </a>
         </div>
       </header>
 
